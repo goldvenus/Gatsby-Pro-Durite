@@ -2,7 +2,7 @@ import React from 'react'
 class MainFooter extends React.Component {
     render () {
         return (
-            <div id="footer" style={{width:`100%`}}>
+            <div style={{width:`100%`}}>
                 <div className="footer_divide">
                 </div>
                 <div className="Main_footer_div ">

@@ -29,7 +29,7 @@ class Header extends React.Component {
           maxWidth: 1280,
           padding: `1.45rem 1.0875rem 0 1.0875rem` }}>
           <Nav className="header_nav_menu">
-            <div className="col-3" style={{textAlign: 'left',}}>
+            <div className="col-3" >
               <Link to='/' style={{
                 color: 'black',
                 textDecoration: 'none'}}>
@@ -58,13 +58,7 @@ class Header extends React.Component {
                   <div>From Nature to Lab</div>
                 </NavItem>
               </Link>
-              <a href='mailto:info@durite.net'>
-                <NavItem eventKey={5}>
-                  <div className="mobile_nav_text">Contact</div>
-                </NavItem>
-              </a>
             </div>
-
             <div className="mobile-header-menu col-9" onClick={this.handleModalOpen}>
               <img src={require('../images/menu-lines.svg')}/>
             </div>
@@ -97,11 +91,6 @@ class Header extends React.Component {
                 <div className="mobile_nav_text">From Nature to Lab</div>
               </NavItem>
             </Link>
-            <a href='mailto:info@durite.net'>
-              <NavItem eventKey={5}>
-                <div className="mobile_nav_text">Contact</div>
-              </NavItem>
-            </a>
           </div>
         </ReactModal>
 

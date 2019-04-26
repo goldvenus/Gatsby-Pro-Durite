@@ -76,10 +76,11 @@ export default class IndexPage extends React.Component {
             </div>
             <h2>
                 Our Products</h2>
-            <hr style={{
+            <hr className="mobile_ourProducts_hr" style={{
                 background: "#FF2023",
                 height: 5,
-                width: 150
+                width: `15vw`,
+                'margin-left': 0
             }}/>
             <Row className="show-grid">
                 <Col xs={12} md={4}>
@@ -151,10 +152,11 @@ export default class IndexPage extends React.Component {
             <Row className="show-grid">
                 <Col xs={12} md={6}>
                     <h2>What is Manufacturing USA?</h2>
-                    <hr style={{
+                    <hr className="mobile_ourProducts_hr" style={{
                         background: "#FF2023",
                         height: 5,
-                        width: 150
+                        width: `31vw`,
+                      'margin-left': 0
                     }}/>
 
                     <h4>
@@ -170,10 +172,11 @@ export default class IndexPage extends React.Component {
                 </Col>
                 <Col xs={12} md={6}>
                     <h2>What is Fabrication?</h2>
-                    <hr style={{
+                    <hr className="mobile_ourProducts_hr" style={{
                         background: "#FF2023",
                         height: 5,
-                        width: 150
+                        width: `22vw`,
+                      'margin-left': 0
                     }}/>
                     <h4>
                         <Link to='/fabrication/'>Learn more

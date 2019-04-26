@@ -1,6 +1,5 @@
 import React from 'react'
 import Helmet from 'react-helmet'
-import Slider from 'react-slick'
 import '../css/master.scss'
 import {Container} from 'react-bootstrap'
 import {Row} from 'react-bootstrap'

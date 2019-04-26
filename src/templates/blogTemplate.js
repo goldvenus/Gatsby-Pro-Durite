@@ -11,7 +11,7 @@ export default function Template({
   return (
     <Layout>
     <section className="section">
-      <div className="container-fluid">
+      <div className="container">
       <div className="content">
 
         <h1>{frontmatter.title}</h1>
