@@ -184,6 +184,15 @@ li a h4 {
     }
 }
 @media only screen and (max-width: 767px) {
+    .mobile_nav_text {
+        text-align: left !important;
+    }
+    .mobile_nav_menu{
+        padding-left:16vw;
+    }
+    .Modal_dialog>div {
+        height: 103vh !important;
+    }
     .footer_divide {
         height: 2px;
         background-color: #000000;

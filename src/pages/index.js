@@ -79,7 +79,7 @@ export default class IndexPage extends React.Component {
             <hr className="mobile_ourProducts_hr" style={{
                 background: "#FF2023",
                 height: 5,
-                width: `15vw`,
+                width: `12vw`,
                 'margin-left': 0
             }}/>
             <Row className="show-grid">
@@ -155,7 +155,7 @@ export default class IndexPage extends React.Component {
                     <hr className="mobile_ourProducts_hr" style={{
                         background: "#FF2023",
                         height: 5,
-                        width: `31vw`,
+                        width: `25vw`,
                       'margin-left': 0
                     }}/>
 
@@ -175,7 +175,7 @@ export default class IndexPage extends React.Component {
                     <hr className="mobile_ourProducts_hr" style={{
                         background: "#FF2023",
                         height: 5,
-                        width: `22vw`,
+                        width: `15vw`,
                       'margin-left': 0
                     }}/>
                     <h4>

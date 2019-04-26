@@ -66,11 +66,11 @@ class Header extends React.Component {
         </Container>
         <Modal
           visible={this.state.isModalOpen}
-          width="80%"
-          height="80%"
+          className="Modal_dialog"
+          width="100%"
+          height="103%"
           effect="fadeInRight"
-          onClickAway={() => this.handleModalClose}
-        >
+          onClickAway={() => this.handleModalClose}>
           <div className="nav_close_btn" onClick={this.handleModalClose}/>
           <div className = "mobile_nav_menu">
             <Link to='/about/'>
