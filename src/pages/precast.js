@@ -70,41 +70,41 @@ export default class ReactComponent extends React.Component {
         };
         const IMAGES = [
 
-            '//mediacdn.duriteusa.com/precast/111-5th+ave+Exterior+Pre-cast+Molding.jpg',
+            '//d2q3s7l8p2303e.cloudfront.net/precast/111-5th+ave+Exterior+Pre-cast+Molding.jpg',
 
-            '//mediacdn.duriteusa.com/precast/116+CPW+Interior+Pre-cast+Hall+Way.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/precast/116+CPW+Interior+Pre-cast+Hall+Way.JPG',
 
-            '//mediacdn.duriteusa.com/precast/315+E+72st+Exterior+Facing+South+72+St.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/precast/315+E+72st+Exterior+Facing+South+72+St.JPG',
 
-            '//mediacdn.duriteusa.com/precast/650+6+Pre-Fab+Elevator+floor.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/precast/650+6+Pre-Fab+Elevator+floor.JPG',
 
-            '//mediacdn.duriteusa.com/precast/Cove+Base+%26+Round+Corners+.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/precast/Cove+Base+%26+Round+Corners+.JPG',
 
-            '//mediacdn.duriteusa.com/precast/Cove+base+Imbedded+in+Floor.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/precast/Cove+base+Imbedded+in+Floor.JPG',
 
-            '//mediacdn.duriteusa.com/precast/Epcot+Center+Coral+Reef+Interior+Wall+Panels.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/precast/Epcot+Center+Coral+Reef+Interior+Wall+Panels.JPG',
 
-            '//mediacdn.duriteusa.com/precast/Epcot+Center+Coral+Reef+looking+at+Water+Tank.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/precast/Epcot+Center+Coral+Reef+looking+at+Water+Tank.JPG',
 
-            '//mediacdn.duriteusa.com/precast/Hudson+Elevator+Floor.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/precast/Hudson+Elevator+Floor.JPG',
 
-            '//mediacdn.duriteusa.com/precast/In+and+Out+Cove+Base.jpg',
+            '//d2q3s7l8p2303e.cloudfront.net/precast/In+and+Out+Cove+Base.jpg',
 
-            '//mediacdn.duriteusa.com/precast/Large+Exterior+Panels+set+on+pedestal+Pavers.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/precast/Large+Exterior+Panels+set+on+pedestal+Pavers.JPG',
 
-            '//mediacdn.duriteusa.com/precast/Pre-Fab+Oyster+Bar+%26+Banquet.jpg',
+            '//d2q3s7l8p2303e.cloudfront.net/precast/Pre-Fab+Oyster+Bar+%26+Banquet.jpg',
 
-            '//mediacdn.duriteusa.com/precast/Pre-Fab+Oyster+BarBooth.jpg',
+            '//d2q3s7l8p2303e.cloudfront.net/precast/Pre-Fab+Oyster+BarBooth.jpg',
 
-            '//mediacdn.duriteusa.com/precast/Precast+Ceiling.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/precast/Precast+Ceiling.JPG',
 
-            '//mediacdn.duriteusa.com/precast/Precast+Round+Column+and+Corner+Base+%26+Star.jpg',
+            '//d2q3s7l8p2303e.cloudfront.net/precast/Precast+Round+Column+and+Corner+Base+%26+Star.jpg',
 
-            '//mediacdn.duriteusa.com/precast/Precast+Wall+Medallion.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/precast/Precast+Wall+Medallion.JPG',
 
-            '//mediacdn.duriteusa.com/precast/WALES+Hotel+Precast+EXTERIORS.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/precast/WALES+Hotel+Precast+EXTERIORS.JPG',
 
-            '//mediacdn.duriteusa.com/precast/WWF+Round+Table+Booth.jpg'
+            '//d2q3s7l8p2303e.cloudfront.net/precast/WWF+Round+Table+Booth.jpg'
 
         ]
 

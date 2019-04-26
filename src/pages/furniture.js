@@ -67,19 +67,19 @@ export default class ReactComponent extends React.Component {
         };
         const IMAGES = [
 
-            '//mediacdn.duriteusa.com/furniture/650+6+Lobby+Bench+Furniture.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/furniture/650+6+Lobby+Bench+Furniture.JPG',
 
-           '//mediacdn.duriteusa.com/furniture/Cabinetry+%26+Milk+Glass+Floor.JPG',
+           '//d2q3s7l8p2303e.cloudfront.net/furniture/Cabinetry+%26+Milk+Glass+Floor.JPG',
 
-           '//mediacdn.duriteusa.com/furniture/Champs+Shoe+Bench.jpg',
+           '//d2q3s7l8p2303e.cloudfront.net/furniture/Champs+Shoe+Bench.jpg',
 
-           '//mediacdn.duriteusa.com/furniture/Citarella+Cashier+Desk+at+Rockefeller+Ctr.jpg',
+           '//d2q3s7l8p2303e.cloudfront.net/furniture/Citarella+Cashier+Desk+at+Rockefeller+Ctr.jpg',
 
-           '//mediacdn.duriteusa.com/furniture/McCann+Erickson+Desk+%26+Floor.JPG',
+           '//d2q3s7l8p2303e.cloudfront.net/furniture/McCann+Erickson+Desk+%26+Floor.JPG',
 
-           '//mediacdn.duriteusa.com/furniture/Seating+Furniture+%26+Floor+Milk+Glass.JPG',
+           '//d2q3s7l8p2303e.cloudfront.net/furniture/Seating+Furniture+%26+Floor+Milk+Glass.JPG',
 
-           '//mediacdn.duriteusa.com/furniture/Water-Jet+Olive+Leafs%2C+Vines+%26+flower+buds+Table.JPG'
+           '//d2q3s7l8p2303e.cloudfront.net/furniture/Water-Jet+Olive+Leafs%2C+Vines+%26+flower+buds+Table.JPG'
 
         ]
 

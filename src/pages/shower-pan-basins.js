@@ -67,19 +67,19 @@ export default class ReactComponent extends React.Component {
         };
         const IMAGES = [
 
-           '//mediacdn.duriteusa.com/shower/Custom+Shower+Panel+Without+Curb.jpg',
+           '//d2q3s7l8p2303e.cloudfront.net/shower/Custom+Shower+Panel+Without+Curb.jpg',
 
-           '//mediacdn.duriteusa.com/shower/SHOWER+BASIN.JPG',
+           '//d2q3s7l8p2303e.cloudfront.net/shower/SHOWER+BASIN.JPG',
 
-           '//mediacdn.duriteusa.com/shower/Shower+Basin+Install.jpg',
+           '//d2q3s7l8p2303e.cloudfront.net/shower/Shower+Basin+Install.jpg',
 
-           '//mediacdn.duriteusa.com/shower/Shower+Basin+With+Raised+Edge.JPG',
+           '//d2q3s7l8p2303e.cloudfront.net/shower/Shower+Basin+With+Raised+Edge.JPG',
 
-          '//mediacdn.duriteusa.com/shower/Shower+Basin+with+raised+edges.JPG',
+          '//d2q3s7l8p2303e.cloudfront.net/shower/Shower+Basin+with+raised+edges.JPG',
 
-           '//mediacdn.duriteusa.com/shower/Shower+Panel+block+for+Glass+Insert.jpg',
+           '//d2q3s7l8p2303e.cloudfront.net/shower/Shower+Panel+block+for+Glass+Insert.jpg',
 
-            '//mediacdn.duriteusa.com/shower/Shower+on+hidden+drainage.JPG'
+            '//d2q3s7l8p2303e.cloudfront.net/shower/Shower+on+hidden+drainage.JPG'
 
         ]
 

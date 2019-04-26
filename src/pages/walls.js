@@ -62,39 +62,39 @@ export default class ReactComponent extends React.Component {
 
         const IMAGES = [
 
-            '//mediacdn.duriteusa.com/walls/Nobu+Wall+%26+Floors.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/walls/Nobu+Wall+%26+Floors.JPG',
 
-             '//mediacdn.duriteusa.com/walls/citerela+wall+panels.JPG',
+             '//d2q3s7l8p2303e.cloudfront.net/walls/citerela+wall+panels.JPG',
 
-             '//mediacdn.duriteusa.com/walls/Coral+Translucent+panels-2.JPG',
+             '//d2q3s7l8p2303e.cloudfront.net/walls/Coral+Translucent+panels-2.JPG',
 
-            '//mediacdn.duriteusa.com/walls/Coral+panel+on+left.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/walls/Coral+panel+on+left.JPG',
 
-          '//mediacdn.duriteusa.com/walls/UN+Fountain.jpg',
+          '//d2q3s7l8p2303e.cloudfront.net/walls/UN+Fountain.jpg',
 
-            '//mediacdn.duriteusa.com/walls/Nobu+Bamboo+Panels.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/walls/Nobu+Bamboo+Panels.JPG',
 
-            '//mediacdn.duriteusa.com/walls/Coral+Panels+at+entrance.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/walls/Coral+Panels+at+entrance.JPG',
 
-            '//mediacdn.duriteusa.com/walls/Coral+Reef+Wall+Panels+Light+in+off+position+.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/walls/Coral+Reef+Wall+Panels+Light+in+off+position+.JPG',
 
-            '//mediacdn.duriteusa.com/walls/CoralReef5.jpg',
+            '//d2q3s7l8p2303e.cloudfront.net/walls/CoralReef5.jpg',
 
-            '//mediacdn.duriteusa.com/walls/CoralReef8.jpg',
+            '//d2q3s7l8p2303e.cloudfront.net/walls/CoralReef8.jpg',
 
-            '//mediacdn.duriteusa.com/walls/Durite+Fountian+for+luis+De+Cruis.jpg',
+            '//d2q3s7l8p2303e.cloudfront.net/walls/Durite+Fountian+for+luis+De+Cruis.jpg',
 
-            '//mediacdn.duriteusa.com/walls/Fountian+picture.jpg',
+            '//d2q3s7l8p2303e.cloudfront.net/walls/Fountian+picture.jpg',
 
-            '//mediacdn.duriteusa.com/walls/Jimmy\'s+East+57.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/walls/Jimmy\'s+East+57.JPG',
 
-            '//mediacdn.duriteusa.com/walls/Nobu+Floor+%26+wall+Panels.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/walls/Nobu+Floor+%26+wall+Panels.JPG',
 
-            '//mediacdn.duriteusa.com/walls/Nobu+Floor+Panels.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/walls/Nobu+Floor+Panels.JPG',
 
-            '//mediacdn.duriteusa.com/walls/UN+Fountain+Wall.jpg',
+            '//d2q3s7l8p2303e.cloudfront.net/walls/UN+Fountain+Wall.jpg',
 
-            '//mediacdn.duriteusa.com/walls/UN+Wall+Fountain+2.jpg'
+            '//d2q3s7l8p2303e.cloudfront.net/walls/UN+Wall+Fountain+2.jpg'
 
         ]
 

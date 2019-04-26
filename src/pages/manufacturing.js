@@ -70,23 +70,23 @@ export default class ReactComponent extends React.Component {
         };
         const IMAGES = [
 
-               '//mediacdn.duriteusa.com/manufacturing/Champs+Cashier+Desk.jpg',
+               '//d2q3s7l8p2303e.cloudfront.net/manufacturing/Champs+Cashier+Desk.jpg',
 
-               '//mediacdn.duriteusa.com/manufacturing/Tiffany+Pantry+Area.JPG',
+               '//d2q3s7l8p2303e.cloudfront.net/manufacturing/Tiffany+Pantry+Area.JPG',
 
-               '//mediacdn.duriteusa.com/manufacturing/Tiffany+Pantry+Kitchen+Top%2C+Island+and+floor.JPG',
+               '//d2q3s7l8p2303e.cloudfront.net/manufacturing/Tiffany+Pantry+Kitchen+Top%2C+Island+and+floor.JPG',
 
-                 '//mediacdn.duriteusa.com/manufacturing/Brooklyn+College+Library+DeskTop.JPG',
+                 '//d2q3s7l8p2303e.cloudfront.net/manufacturing/Brooklyn+College+Library+DeskTop.JPG',
 
-              '//mediacdn.duriteusa.com/manufacturing/Brooklyn+College+Library+Info+DeskTop+Two+Levels.JPG',
+              '//d2q3s7l8p2303e.cloudfront.net/manufacturing/Brooklyn+College+Library+Info+DeskTop+Two+Levels.JPG',
 
-                 '//mediacdn.duriteusa.com/manufacturing/Brooklyn+College+Library+Information+DeskTop.JPG',
+                 '//d2q3s7l8p2303e.cloudfront.net/manufacturing/Brooklyn+College+Library+Information+DeskTop.JPG',
 
-                 '//mediacdn.duriteusa.com/manufacturing/Brooklyn+College.JPG',
+                 '//d2q3s7l8p2303e.cloudfront.net/manufacturing/Brooklyn+College.JPG',
 
-                 '//mediacdn.duriteusa.com/manufacturing/Champs+Cashier+Desk+(1).JPG',
+                 '//d2q3s7l8p2303e.cloudfront.net/manufacturing/Champs+Cashier+Desk+(1).JPG',
 
-                 '//mediacdn.duriteusa.com/manufacturing/City+Center+Grand+Stairs.JPG'
+                 '//d2q3s7l8p2303e.cloudfront.net/manufacturing/City+Center+Grand+Stairs.JPG'
 
         ]
 
