@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import React from "react"
-import ReactModal from 'react-modal'
 import { Container, Nav, NavItem } from "react-bootstrap"
+import Modal from 'react-awesome-modal';
 
 class Header extends React.Component {
   constructor (props) {
@@ -11,7 +11,7 @@ class Header extends React.Component {
     }
   }
   handleModalOpen = event => {
-    // console.log('handleModalOpen: ', event);
+    //console.log('handleModalOpen: ', event);
     this.setState({ isModalOpen: true })
   }
 
@@ -64,11 +64,13 @@ class Header extends React.Component {
             </div>
           </Nav>
         </Container>
-        <ReactModal
-          isOpen={this.state.isModalOpen}
-          className = "ModalDialog"
-          onRequestClose={this.handleModalClose}
-          contentLabel="Example Modal In Gatsby">
+        <Modal
+          visible={this.state.isModalOpen}
+          width="80%"
+          height="80%"
+          effect="fadeInRight"
+          onClickAway={() => this.handleModalClose}
+        >
           <div className="nav_close_btn" onClick={this.handleModalClose}/>
           <div className = "mobile_nav_menu">
             <Link to='/about/'>
@@ -92,7 +94,7 @@ class Header extends React.Component {
               </NavItem>
             </Link>
           </div>
-        </ReactModal>
+        </Modal>
 
 
       </header>
