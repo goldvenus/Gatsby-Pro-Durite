@@ -109,7 +109,7 @@ export default class ReactComponent extends React.Component {
         return (
           <Layout>
             <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-                <div className="container">
+                <div>
                     <Helmet title={`Durite | Stairs, Treads, & Risers`}/>
                     <div className="pageHeader">
                         <h2>Stairs, Treads, & Risers</h2>
