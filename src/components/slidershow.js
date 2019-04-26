@@ -21,29 +21,19 @@ const Slideshow = () => {
   return (
     <Slide {...properties}>
       <div className="each-slide" style={{'height' : '400px'}}>
-        <div  className="slide_background" style={{'backgroundImage': `url(${slideImages[0]})`}}>
-          <span>Slide 1</span>
-        </div>
+        <div  className="slide_background" style={{'backgroundImage': `url(${slideImages[0]})`}}/>
       </div>
       <div className="each-slide">
-        <div className="slide_background" style={{'backgroundImage': `url(${slideImages[1]})`}}>
-          <span>Slide 2</span>
-        </div>
+        <div className="slide_background" style={{'backgroundImage': `url(${slideImages[1]})`}}/>
       </div>
       <div className="each-slide">
-        <div className="slide_background" style={{'backgroundImage': `url(${slideImages[2]})`}}>
-          <span>Slide 3</span>
-        </div>
+        <div className="slide_background" style={{'backgroundImage': `url(${slideImages[2]})`}}/>
       </div>
       <div className="each-slide">
-        <div className="slide_background" style={{'backgroundImage': `url(${slideImages[3]})`}}>
-          <span>Slide 4</span>
-        </div>
+        <div className="slide_background" style={{'backgroundImage': `url(${slideImages[3]})`}}/>
       </div>
       <div className="each-slide">
-        <div  className="slide_background" style={{'backgroundImage': `url(${slideImages[4]})`}}>
-          <span>Slide 5</span>
-        </div>
+        <div  className="slide_background" style={{'backgroundImage': `url(${slideImages[4]})`}}/>
       </div>
 
     </Slide>

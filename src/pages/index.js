@@ -14,7 +14,6 @@ import {
     Row,
     Col
 } from 'react-bootstrap'
-import Slider from 'react-slick'
 import FA from 'react-fontawesome'
 import Gallery from '../components/gallery'
 import MainFooter from "../components/footer"
@@ -74,38 +73,6 @@ export default class IndexPage extends React.Component {
                     }
                 ]}/>
                 <div>
-                    <Navbar collapseOnSelect style={{
-                        backgroundColor: 'transparent',
-                        background: 'transparent',
-                        borderColor: 'transparent'
-                    }}>
-                        <Navbar.Toggle/>
-                        <Navbar.Collapse>
-                            <Nav>
-                                <Link to='/about/'>
-                                    <NavItem eventKey={1}>
-                                        <h4>About Durite</h4>
-                                    </NavItem>
-                                </Link>
-                                <Link to='/partnering/'>
-                                    <NavItem eventKey={2}>
-                                        <h4>Partnering with Durite</h4>
-                                    </NavItem>
-                                </Link>
-                                <Link to='/chemistry/'>
-                                    <NavItem eventKey={3}>
-                                        <h4>Chemistry of Polymers</h4>
-                                    </NavItem>
-                                </Link>
-                                <Link to='/nature/'>
-                                    <NavItem eventKey={4}>
-                                        <h4>From Nature to Lab</h4>
-                                    </NavItem>
-                                </Link>
-
-                            </Nav>
-                        </Navbar.Collapse>
-                    </Navbar>
                     <Gallery isOpen={this.state.galleryIsOpen} onClose={this.closeGallery} title="Gallery" images={IMAGES}/>
                     <div className="slideShow">
                         <Slideshow/>
