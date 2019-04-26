@@ -210,6 +210,11 @@ li a h4 {
             }
         }
     }
+    .mobile-header-menu {
+        display: flex !important;
+        justify-content: flex-end;
+    }
+
 }
 .slide_background {
     background-repeat: no-repeat;
@@ -241,4 +246,7 @@ li a h4 {
 
 .show-grid a{
     color:black;
+}
+.mobile-header-menu {
+    display: none;
 }
