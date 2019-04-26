@@ -1,11 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24c97788-e59b-4cce-85c5-d5fcbd693f6f" name="Default Changelist" comment="">
+    <list default="true" id="24c97788-e59b-4cce-85c5-d5fcbd693f6f" name="Default Changelist" comment="Merge branch 'master' of github.com:Vaestro/durite-gatsby&#10;&#10;# Conflicts:&#10;#&#9;src/components/header.js">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/master.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/master.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/bathtub.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/bathtub.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/fabrication.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/fabrication.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/furniture.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/furniture.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/kitchen-bar-counter-tops.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/kitchen-bar-counter-tops.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/manufacturing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/manufacturing.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/page-2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/precast.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/precast.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/shower-pan-basins.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shower-pan-basins.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/stairs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/stairs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/vanity-top.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/vanity-top.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/walls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/walls.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/water-jet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/water-jet.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/templates/blogTemplate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/blogTemplate.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -27,8 +40,8 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="2" />
-          <entry key="js" value="29" />
-          <entry key="json" value="1" />
+          <entry key="js" value="34" />
+          <entry key="json" value="2" />
           <entry key="rnc" value="1" />
           <entry key="scss" value="2" />
           <entry key="svg" value="5" />
@@ -38,8 +51,8 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="2" />
-          <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="29" />
+          <entry key="JSON" value="2" />
+          <entry key="JavaScript" value="34" />
           <entry key="RNG Compact" value="1" />
           <entry key="SCSS" value="2" />
           <entry key="SVG" value="5" />
@@ -49,7 +62,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="6" />
-          <entry key="js" value="2669" />
+          <entry key="js" value="2672" />
           <entry key="json" value="1" />
           <entry key="rnc" value="1" />
           <entry key="scss" value="645" />
@@ -59,7 +72,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="2669" />
+          <entry key="JavaScript" value="2672" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="RNG Compact" value="1" />
           <entry key="SCSS" value="645" />
@@ -76,79 +89,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/precast.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="125" column="67" selection-start-line="125" selection-start-column="67" selection-end-line="125" selection-end-column="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/shower-pan-basins.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="100" column="67" selection-start-line="100" selection-start-column="67" selection-end-line="100" selection-end-column="67" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/stairs.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="123" column="67" selection-start-line="123" selection-start-column="67" selection-end-line="123" selection-end-column="67" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/vanity-top.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-243">
-              <caret line="57" column="14" selection-start-line="57" selection-start-column="14" selection-end-line="57" selection-end-column="14" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/walls.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/water-jet.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="197" lean-forward="true" selection-start-line="197" selection-end-line="197" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/templates/blogTemplate.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="468">
-              <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+              <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -159,8 +103,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/header.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+            <state relative-caret-position="189">
+              <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -168,11 +112,47 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="81" column="32" lean-forward="true" selection-start-line="81" selection-start-column="32" selection-end-line="81" selection-end-column="32" />
+            <state relative-caret-position="156">
+              <caret line="88" column="25" selection-start-line="88" selection-start-column="25" selection-end-line="88" selection-end-column="25" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pages/bathtub.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="61" column="27" lean-forward="true" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/manufacturing.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="490">
+              <caret line="107" column="67" selection-start-line="107" selection-start-column="67" selection-end-line="107" selection-end-column="67" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/furniture.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="453">
+              <caret line="79" column="92" selection-start-line="79" selection-start-column="92" selection-end-line="79" selection-end-column="92" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -184,13 +164,39 @@
         <entry file="file://$PROJECT_DIR$/src/css/master.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="173">
-              <caret line="113" column="25" selection-start-line="113" selection-end-line="113" selection-end-column="25" />
+              <caret line="117" column="25" selection-start-line="117" selection-end-line="117" selection-end-column="25" />
               <folding>
                 <element signature="e#2949#3088#0" />
                 <element signature="e#3110#3878#0" />
                 <element signature="e#3211#3499#0" />
                 <element signature="e#3524#3872#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package-lock.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/walls.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="387">
+              <caret line="88" selection-start-line="88" selection-end-line="88" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/precast.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="490">
+              <caret line="125" column="67" selection-start-line="125" selection-start-column="67" selection-end-line="125" selection-end-column="67" />
             </state>
           </provider>
         </entry>
@@ -217,8 +223,8 @@
       <find>Slideshow_image</find>
       <find>header_nav_menu</find>
       <find>our por</find>
-      <find>@media (max-width: 800px)</find>
       <find>hr</find>
+      <find>@media (max-width: 800px)</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -234,20 +240,20 @@
         <option value="$PROJECT_DIR$/src/images/navmenu.svg" />
         <option value="$PROJECT_DIR$/src/images/menu-lines.svg" />
         <option value="$PROJECT_DIR$/src/components/slidershow_image.js" />
-        <option value="$PROJECT_DIR$/src/pages/bathtub.js" />
         <option value="$PROJECT_DIR$/src/pages/fabrication.js" />
         <option value="$PROJECT_DIR$/src/pages/furniture.js" />
         <option value="$PROJECT_DIR$/src/pages/kitchen-bar-counter-tops.js" />
-        <option value="$PROJECT_DIR$/src/pages/manufacturing.js" />
-        <option value="$PROJECT_DIR$/src/pages/precast.js" />
         <option value="$PROJECT_DIR$/src/pages/shower-pan-basins.js" />
         <option value="$PROJECT_DIR$/src/pages/stairs.js" />
         <option value="$PROJECT_DIR$/src/pages/vanity-top.js" />
-        <option value="$PROJECT_DIR$/src/pages/walls.js" />
         <option value="$PROJECT_DIR$/src/pages/water-jet.js" />
         <option value="$PROJECT_DIR$/src/components/header.js" />
         <option value="$PROJECT_DIR$/src/css/master.scss" />
         <option value="$PROJECT_DIR$/src/pages/index.js" />
+        <option value="$PROJECT_DIR$/src/pages/manufacturing.js" />
+        <option value="$PROJECT_DIR$/src/pages/precast.js" />
+        <option value="$PROJECT_DIR$/src/pages/walls.js" />
+        <option value="$PROJECT_DIR$/src/pages/bathtub.js" />
       </list>
     </option>
   </component>
@@ -399,12 +405,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556269908287</updated>
-      <workItem from="1556269910427" duration="32060000" />
+      <workItem from="1556269910427" duration="33084000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32060000" />
+    <option name="totallyTimeSpent" value="33084000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -425,9 +431,10 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" weight="0.20424107" />
+      <window_info anchor="bottom" id="Version Control" weight="0.36049107" />
+      <window_info anchor="bottom" id="Terminal" weight="0.6104911" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.5002644" side_tool="true" weight="0.21428572" />
+      <window_info anchor="bottom" id="Messages" weight="0.32924107" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4997356" visible="true" weight="0.27455357" />
@@ -445,6 +452,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Merge branch 'master' of github.com:Vaestro/durite-gatsby&#10;&#10;# Conflicts:&#10;#&#9;src/components/header.js" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of github.com:Vaestro/durite-gatsby&#10;&#10;# Conflicts:&#10;#&#9;src/components/header.js" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/gatsby-config.js">
@@ -555,30 +566,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/bathtub.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/fabrication.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="1" column="33" selection-start-line="1" selection-start-column="33" selection-end-line="1" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/furniture.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="79" column="92" selection-start-line="79" selection-start-column="92" selection-end-line="79" selection-end-column="92" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -592,29 +583,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/manufacturing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="107" column="67" selection-start-line="107" selection-start-column="67" selection-end-line="107" selection-end-column="67" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/page-2.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/precast.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="125" column="67" selection-start-line="125" selection-start-column="67" selection-end-line="125" selection-end-column="67" />
         </state>
       </provider>
     </entry>
@@ -648,16 +622,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/walls.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="116" lean-forward="true" selection-start-line="116" selection-end-line="116" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/water-jet.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="387">
@@ -671,7 +635,7 @@
     <entry file="file://$PROJECT_DIR$/src/templates/blogTemplate.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="468">
-          <caret line="34" column="19" lean-forward="true" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
+          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
@@ -680,10 +644,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/header.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+        <state relative-caret-position="189">
+          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="88" column="25" selection-start-line="88" selection-start-column="25" selection-end-line="88" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/furniture.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="79" column="92" selection-start-line="79" selection-start-column="92" selection-end-line="79" selection-end-column="92" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/manufacturing.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="107" column="67" selection-start-line="107" selection-start-column="67" selection-end-line="107" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -691,7 +685,7 @@
     <entry file="file://$PROJECT_DIR$/src/css/master.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
-          <caret line="113" column="25" selection-start-line="113" selection-end-line="113" selection-end-column="25" />
+          <caret line="117" column="25" selection-start-line="117" selection-end-line="117" selection-end-column="25" />
           <folding>
             <element signature="e#2949#3088#0" />
             <element signature="e#3110#3878#0" />
@@ -701,10 +695,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/index.js">
+    <entry file="file://$PROJECT_DIR$/src/pages/precast.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="81" column="32" lean-forward="true" selection-start-line="81" selection-start-column="32" selection-end-line="81" selection-end-column="32" />
+        <state relative-caret-position="490">
+          <caret line="125" column="67" selection-start-line="125" selection-start-column="67" selection-end-line="125" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/walls.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="88" selection-start-line="88" selection-end-line="88" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/bathtub.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="61" column="27" lean-forward="true" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="27" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
