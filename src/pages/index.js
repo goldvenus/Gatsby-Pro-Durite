@@ -18,6 +18,7 @@ import Slider from 'react-slick'
 import FA from 'react-fontawesome'
 import Gallery from '../components/gallery'
 import MainFooter from "../components/footer"
+import Slideshow from "../components/slidershow"
 
 export default class IndexPage extends React.Component {
     constructor(props) {
@@ -44,14 +45,7 @@ export default class IndexPage extends React.Component {
                 slidesToScroll: 1,
                 autoplay: true,
                 autoplaySpeed: 2000,
-                responsive: [
-                    {
-                        breakpoint: 768,
-                        settings: {
-                            slidesToShow: 1
-                        }
-                    }
-                ]
+
             };
             const IMAGES = [
                 {
@@ -114,13 +108,7 @@ export default class IndexPage extends React.Component {
                     </Navbar>
                     <Gallery isOpen={this.state.galleryIsOpen} onClose={this.closeGallery} title="Gallery" images={IMAGES}/>
                     <div className="slideShow">
-                        <Slider {...settings}>
-                            <div><img onClick={this.openLightbox} src={IMAGES[0].src}/></div>
-                            <div><img onClick={this.openLightbox} src={IMAGES[1].src}/></div>
-                            <div><img onClick={this.openLightbox} src={IMAGES[2].src}/></div>
-                            <div><img onClick={this.openLightbox} src={IMAGES[3].src}/></div>
-
-                        </Slider>
+                        <Slideshow/>
                         <button className="viewGalleryButton" onClick={this.openGallery}>
                             <h4>View Gallery
                                 <FA name='picture-o'/></h4>
