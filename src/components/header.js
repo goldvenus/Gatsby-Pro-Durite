@@ -58,7 +58,13 @@ class Header extends React.Component {
                   <div>From Nature to Lab</div>
                 </NavItem>
               </Link>
+              <a href='mailto:info@durite.net'>
+                <NavItem eventKey={5}>
+                  <div className="mobile_nav_text">Contact</div>
+                </NavItem>
+              </a>
             </div>
+
             <div className="mobile-header-menu col-9" onClick={this.handleModalOpen}>
               <img src={require('../images/menu-lines.svg')}/>
             </div>
@@ -91,6 +97,11 @@ class Header extends React.Component {
                 <div className="mobile_nav_text">From Nature to Lab</div>
               </NavItem>
             </Link>
+            <a href='mailto:info@durite.net'>
+              <NavItem eventKey={5}>
+                <div className="mobile_nav_text">Contact</div>
+              </NavItem>
+            </a>
           </div>
         </ReactModal>
 

@@ -69,45 +69,45 @@ export default class ReactComponent extends React.Component {
         };
         const IMAGES = [
 
-            'https://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Susan+Counter+Top+2.JPG',
+            '//mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Susan+Counter+Top+2.JPG',
 
-            'https://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Greene+Island+%26+Kitchen+Top.jpg',
+            '//mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Greene+Island+%26+Kitchen+Top.jpg',
 
-                 'https://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Back+of+Wall+%26+Bar+Top+One+Piece.JPG',
+                 '//mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Back+of+Wall+%26+Bar+Top+One+Piece.JPG',
 
-                 'https://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Citarella+Bar.JPG',
+                 '//mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Citarella+Bar.JPG',
 
-                 'https://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Example+of+Pebble+panels.jpg',
+                 '//mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Example+of+Pebble+panels.jpg',
 
-              'https://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Fabrication+Table+Top.jpg',
+              '//mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Fabrication+Table+Top.jpg',
 
-                'https://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/GRN+Island+Thickness.jpg',
+                '//mediacdn.durite.us/Kitchen+%26+Bar+Countertops/GRN+Island+Thickness.jpg',
 
-              'https://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/GRN+Kitchen+Sink%2C+Counter+%26+Black-Splash+One+Piece.jpg',
+              '//mediacdn.durite.us/Kitchen+%26+Bar+Countertops/GRN+Kitchen+Sink%2C+Counter+%26+Black-Splash+One+Piece.jpg',
 
-              'https://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Gansvourt+Bar+Corner+100\'+length+one+piece.JPG',
+              '//mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Gansvourt+Bar+Corner+100\'+length+one+piece.JPG',
 
-              'https://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Gansvourt+Bar+Section.JPG',
+              '//mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Gansvourt+Bar+Section.JPG',
 
-              'https://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/JFK+Avion+Cafe+Bar+top.jpg',
+              '//mediacdn.durite.us/Kitchen+%26+Bar+Countertops/JFK+Avion+Cafe+Bar+top.jpg',
 
-              'https://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/JFK+Avion+Cafe+Counter+Top.jpg',
+              '//mediacdn.durite.us/Kitchen+%26+Bar+Countertops/JFK+Avion+Cafe+Counter+Top.jpg',
 
-              'https://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Kitchen+%26+Island.jpg',
+              '//mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Kitchen+%26+Island.jpg',
 
-              'https://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Kitchen+Island+Top.JPG',
+              '//mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Kitchen+Island+Top.JPG',
 
-              'https://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Kitchen+Walkway.jpg',
+              '//mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Kitchen+Walkway.jpg',
 
-              'https://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Olympia+Tower+Kitchen.JPG',
+              '//mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Olympia+Tower+Kitchen.JPG',
 
-              'https://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Radius+one+piece+Oyster+Bar.JPG',
+              '//mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Radius+one+piece+Oyster+Bar.JPG',
 
-              'https://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Susan+Counter+Top.JPG',
+              '//mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Susan+Counter+Top.JPG',
 
-              'https://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Susan+Custom+Made+Counter+Top+2+(1).JPG',
+              '//mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Susan+Custom+Made+Counter+Top+2+(1).JPG',
 
-              'https://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Zen+Palate+Table+Top.jpg'
+              '//mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Zen+Palate+Table+Top.jpg'
 
         ]
 
