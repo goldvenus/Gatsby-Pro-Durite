@@ -1,4 +1,4 @@
-import React from 'react'
+https:import React from 'react'
 import Helmet from 'react-helmet'
 import Slider from 'react-slick'
 import '../css/master.scss'
@@ -66,33 +66,33 @@ export default class ReactComponent extends React.Component {
         };
         const IMAGES = [
 
-            'http://mediacdn.durite.us/Bathtub+%26+Fixtures/BARBARA+BATHROOM.jpg',
+            'https://mediacdn.durite.us/Bathtub+%26+Fixtures/BARBARA+BATHROOM.jpg',
 
-            'http://mediacdn.durite.us/Bathtub+%26+Fixtures/Bath+Tub+%26+Wall+Panels.JPG',
+            'https://mediacdn.durite.us/Bathtub+%26+Fixtures/Bath+Tub+%26+Wall+Panels.JPG',
 
-            'http://mediacdn.durite.us/Bathtub+%26+Fixtures/CRUSHED+GLASS+FLOORS.JPG',
+            'https://mediacdn.durite.us/Bathtub+%26+Fixtures/CRUSHED+GLASS+FLOORS.JPG',
 
-            'http://mediacdn.durite.us/Bathtub+%26+Fixtures/Fairfax+BRM+SMALL+SIZE.jpg',
+            'https://mediacdn.durite.us/Bathtub+%26+Fixtures/Fairfax+BRM+SMALL+SIZE.jpg',
 
-             'http://mediacdn.durite.us/Bathtub+%26+Fixtures/Fairfax+Bench+%26+Panels.jpg',
+             'https://mediacdn.durite.us/Bathtub+%26+Fixtures/Fairfax+Bench+%26+Panels.jpg',
 
-             'http://mediacdn.durite.us/Bathtub+%26+Fixtures/Fairfax+Sink.jpg',
+             'https://mediacdn.durite.us/Bathtub+%26+Fixtures/Fairfax+Sink.jpg',
 
-             'http://mediacdn.durite.us/Bathtub+%26+Fixtures/Fountain+-Jacuzzi.JPG',
+             'https://mediacdn.durite.us/Bathtub+%26+Fixtures/Fountain+-Jacuzzi.JPG',
 
-            'http://mediacdn.durite.us/Bathtub+%26+Fixtures/Fountain-+Jacuzzi.JPG',
+            'https://mediacdn.durite.us/Bathtub+%26+Fixtures/Fountain-+Jacuzzi.JPG',
 
-            'http://mediacdn.durite.us/Bathtub+%26+Fixtures/GRN+Gray+Mirror+Tub+Surround+%26+Bathroom+.jpg',
+            'https://mediacdn.durite.us/Bathtub+%26+Fixtures/GRN+Gray+Mirror+Tub+Surround+%26+Bathroom+.jpg',
 
-            'http://mediacdn.durite.us/Bathtub+%26+Fixtures/GRN+Gray+Vanity+Mirror-2.jpg',
+            'https://mediacdn.durite.us/Bathtub+%26+Fixtures/GRN+Gray+Vanity+Mirror-2.jpg',
 
-            'http://mediacdn.durite.us/Bathtub+%26+Fixtures/Molded+Tub.JPG',
+            'https://mediacdn.durite.us/Bathtub+%26+Fixtures/Molded+Tub.JPG',
 
-            'http://mediacdn.durite.us/Bathtub+%26+Fixtures/Moroccan+Fountain+With+Leaf+Impression.JPG',
+            'https://mediacdn.durite.us/Bathtub+%26+Fixtures/Moroccan+Fountain+With+Leaf+Impression.JPG',
 
-            'http://mediacdn.durite.us/Bathtub+%26+Fixtures/TUB+Surround+Panel.jpg',
+            'https://mediacdn.durite.us/Bathtub+%26+Fixtures/TUB+Surround+Panel.jpg',
 
-            'http://mediacdn.durite.us/Bathtub+%26+Fixtures/Tub+%26+Walls+Same+Material.JPG'
+            'https://mediacdn.durite.us/Bathtub+%26+Fixtures/Tub+%26+Walls+Same+Material.JPG'
         ]
 
         return (

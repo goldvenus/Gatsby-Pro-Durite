@@ -58,23 +58,23 @@ export default class ReactComponent extends React.Component {
     render() {
         const IMAGES = [
 
-            'http://mediacdn.durite.us/vanity+top/3D+Cast+Sink+%26+Counter+Same+Material.JPG',
+            'https://mediacdn.durite.us/vanity+top/3D+Cast+Sink+%26+Counter+Same+Material.JPG',
 
-            'http://mediacdn.durite.us/vanity+top/Fairfax+Vanity+Top.jpg',
+            'https://mediacdn.durite.us/vanity+top/Fairfax+Vanity+Top.jpg',
 
-            'http://mediacdn.durite.us/vanity+top/GRN+Gray+Mirror+Vanity+Sink.jpg',
+            'https://mediacdn.durite.us/vanity+top/GRN+Gray+Mirror+Vanity+Sink.jpg',
 
-            'http://mediacdn.durite.us/vanity+top/GRN+White+Mirror+Vanity.jpg',
+            'https://mediacdn.durite.us/vanity+top/GRN+White+Mirror+Vanity.jpg',
 
-          'http://mediacdn.durite.us/vanity+top/Giraffe+Hotel+Ladies+Powder+Room+Vanity.JPG',
+          'https://mediacdn.durite.us/vanity+top/Giraffe+Hotel+Ladies+Powder+Room+Vanity.JPG',
 
-            'http://mediacdn.durite.us/vanity+top/TROUGH+SINK.JPG',
+            'https://mediacdn.durite.us/vanity+top/TROUGH+SINK.JPG',
 
-            'http://mediacdn.durite.us/vanity+top/Trough+Sink+With+Slot+Drain.JPG',
+            'https://mediacdn.durite.us/vanity+top/Trough+Sink+With+Slot+Drain.JPG',
 
-            'http://mediacdn.durite.us/vanity+top/Vanity+Cast+Top+and+Sinks+Single+piece.jpg',
+            'https://mediacdn.durite.us/vanity+top/Vanity+Cast+Top+and+Sinks+Single+piece.jpg',
 
-            'http://mediacdn.durite.us/vanity+top/W-Hotel+Custom+Shells+Vanity+Top.JPG'
+            'https://mediacdn.durite.us/vanity+top/W-Hotel+Custom+Shells+Vanity+Top.JPG'
 
         ]
 
