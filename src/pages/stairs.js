@@ -70,39 +70,39 @@ export default class ReactComponent extends React.Component {
         };
         const IMAGES = [
 
-            '//mediacdn.durite.us/stairs/Arup+Concrete+Polymer+Nome-Cracking+Stairs.JPG',
+            '//mediacdn.duriteusa.com/stairs/Arup+Concrete+Polymer+Nome-Cracking+Stairs.JPG',
 
-            '//mediacdn.durite.us/stairs/Arup+Stair+Pans+filled+with+Concrete+Polymer.JPG',
+            '//mediacdn.duriteusa.com/stairs/Arup+Stair+Pans+filled+with+Concrete+Polymer.JPG',
 
-            '//mediacdn.durite.us/stairs/Bowlmor+Lanes+Translucent+Stairs.JPG',
+            '//mediacdn.duriteusa.com/stairs/Bowlmor+Lanes+Translucent+Stairs.JPG',
 
-            '//mediacdn.durite.us/stairs/Floor+to+Stepping+Stone.jpg',
+            '//mediacdn.duriteusa.com/stairs/Floor+to+Stepping+Stone.jpg',
 
-            '//mediacdn.durite.us/stairs/Greene+Winged+Stairs.jpg',
+            '//mediacdn.duriteusa.com/stairs/Greene+Winged+Stairs.jpg',
 
-            '//mediacdn.durite.us/stairs/Lacoste+Airplane+Winged+Stair.jpg',
+            '//mediacdn.duriteusa.com/stairs/Lacoste+Airplane+Winged+Stair.jpg',
 
-            '//mediacdn.durite.us/stairs/Lacoste+Stairs+View+from+Exterior.jpg',
+            '//mediacdn.duriteusa.com/stairs/Lacoste+Stairs+View+from+Exterior.jpg',
 
-            '//mediacdn.durite.us/stairs/PH+Interior+Overall.jpg',
+            '//mediacdn.duriteusa.com/stairs/PH+Interior+Overall.jpg',
 
-            '//mediacdn.durite.us/stairs/PH+Stairs+Head+On+Shot.jpg',
+            '//mediacdn.duriteusa.com/stairs/PH+Stairs+Head+On+Shot.jpg',
 
-            '//mediacdn.durite.us/stairs/PH+Stairs.jpg',
+            '//mediacdn.duriteusa.com/stairs/PH+Stairs.jpg',
 
-            '//mediacdn.durite.us/stairs/PH+Steps+to+Exterior.jpg',
+            '//mediacdn.duriteusa.com/stairs/PH+Steps+to+Exterior.jpg',
 
-            '//mediacdn.durite.us/stairs/Public+Theater+Nosing.JPG',
+            '//mediacdn.duriteusa.com/stairs/Public+Theater+Nosing.JPG',
 
-            '//mediacdn.durite.us/stairs/Publice+Theater+Grand+Stairs.JPG',
+            '//mediacdn.duriteusa.com/stairs/Publice+Theater+Grand+Stairs.JPG',
 
-            '//mediacdn.durite.us/stairs/Single+piece+Tread+%26+Riser+Off-Set+at+70+degrees.jpg',
+            '//mediacdn.duriteusa.com/stairs/Single+piece+Tread+%26+Riser+Off-Set+at+70+degrees.jpg',
 
-            '//mediacdn.durite.us/stairs/Single+piece+Tread+%26+Riser.jpg',
+            '//mediacdn.duriteusa.com/stairs/Single+piece+Tread+%26+Riser.jpg',
 
-            '//mediacdn.durite.us/stairs/Stair+Risers.JPG',
+            '//mediacdn.duriteusa.com/stairs/Stair+Risers.JPG',
 
-            '//mediacdn.durite.us/stairs/Stair+Treads+%26+Risers+Separate+Pieces+Prefab+%26+Install.JPG'
+            '//mediacdn.duriteusa.com/stairs/Stair+Treads+%26+Risers+Separate+Pieces+Prefab+%26+Install.JPG'
 
         ]
 

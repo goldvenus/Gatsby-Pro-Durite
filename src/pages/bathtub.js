@@ -66,33 +66,33 @@ export default class ReactComponent extends React.Component {
         };
         const IMAGES = [
 
-            '//mediacdn.durite.us/Bathtub+%26+Fixtures/BARBARA+BATHROOM.jpg',
+            '//mediacdn.duriteusa.com/Bathtub+%26+Fixtures/BARBARA+BATHROOM.jpg',
 
-            '//mediacdn.durite.us/Bathtub+%26+Fixtures/Bath+Tub+%26+Wall+Panels.JPG',
+            '//mediacdn.duriteusa.com/Bathtub+%26+Fixtures/Bath+Tub+%26+Wall+Panels.JPG',
 
-            '//mediacdn.durite.us/Bathtub+%26+Fixtures/CRUSHED+GLASS+FLOORS.JPG',
+            '//mediacdn.duriteusa.com/Bathtub+%26+Fixtures/CRUSHED+GLASS+FLOORS.JPG',
 
-            '//mediacdn.durite.us/Bathtub+%26+Fixtures/Fairfax+BRM+SMALL+SIZE.jpg',
+            '//mediacdn.duriteusa.com/Bathtub+%26+Fixtures/Fairfax+BRM+SMALL+SIZE.jpg',
 
-             '//mediacdn.durite.us/Bathtub+%26+Fixtures/Fairfax+Bench+%26+Panels.jpg',
+             '//mediacdn.duriteusa.com/Bathtub+%26+Fixtures/Fairfax+Bench+%26+Panels.jpg',
 
-             '//mediacdn.durite.us/Bathtub+%26+Fixtures/Fairfax+Sink.jpg',
+             '//mediacdn.duriteusa.com/Bathtub+%26+Fixtures/Fairfax+Sink.jpg',
 
-             '//mediacdn.durite.us/Bathtub+%26+Fixtures/Fountain+-Jacuzzi.JPG',
+             '//mediacdn.duriteusa.com/Bathtub+%26+Fixtures/Fountain+-Jacuzzi.JPG',
 
-            '//mediacdn.durite.us/Bathtub+%26+Fixtures/Fountain-+Jacuzzi.JPG',
+            '//mediacdn.duriteusa.com/Bathtub+%26+Fixtures/Fountain-+Jacuzzi.JPG',
 
-            '//mediacdn.durite.us/Bathtub+%26+Fixtures/GRN+Gray+Mirror+Tub+Surround+%26+Bathroom+.jpg',
+            '//mediacdn.duriteusa.com/Bathtub+%26+Fixtures/GRN+Gray+Mirror+Tub+Surround+%26+Bathroom+.jpg',
 
-            '//mediacdn.durite.us/Bathtub+%26+Fixtures/GRN+Gray+Vanity+Mirror-2.jpg',
+            '//mediacdn.duriteusa.com/Bathtub+%26+Fixtures/GRN+Gray+Vanity+Mirror-2.jpg',
 
-            '//mediacdn.durite.us/Bathtub+%26+Fixtures/Molded+Tub.JPG',
+            '//mediacdn.duriteusa.com/Bathtub+%26+Fixtures/Molded+Tub.JPG',
 
-            '//mediacdn.durite.us/Bathtub+%26+Fixtures/Moroccan+Fountain+With+Leaf+Impression.JPG',
+            '//mediacdn.duriteusa.com/Bathtub+%26+Fixtures/Moroccan+Fountain+With+Leaf+Impression.JPG',
 
-            '//mediacdn.durite.us/Bathtub+%26+Fixtures/TUB+Surround+Panel.jpg',
+            '//mediacdn.duriteusa.com/Bathtub+%26+Fixtures/TUB+Surround+Panel.jpg',
 
-            '//mediacdn.durite.us/Bathtub+%26+Fixtures/Tub+%26+Walls+Same+Material.JPG'
+            '//mediacdn.duriteusa.com/Bathtub+%26+Fixtures/Tub+%26+Walls+Same+Material.JPG'
         ]
 
         return (

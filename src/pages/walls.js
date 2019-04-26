@@ -62,39 +62,39 @@ export default class ReactComponent extends React.Component {
 
         const IMAGES = [
 
-            '//mediacdn.durite.us/walls/Nobu+Wall+%26+Floors.JPG',
+            '//mediacdn.duriteusa.com/walls/Nobu+Wall+%26+Floors.JPG',
 
-             '//mediacdn.durite.us/walls/citerela+wall+panels.JPG',
+             '//mediacdn.duriteusa.com/walls/citerela+wall+panels.JPG',
 
-             '//mediacdn.durite.us/walls/Coral+Translucent+panels-2.JPG',
+             '//mediacdn.duriteusa.com/walls/Coral+Translucent+panels-2.JPG',
 
-            '//mediacdn.durite.us/walls/Coral+panel+on+left.JPG',
+            '//mediacdn.duriteusa.com/walls/Coral+panel+on+left.JPG',
 
-          '//mediacdn.durite.us/walls/UN+Fountain.jpg',
+          '//mediacdn.duriteusa.com/walls/UN+Fountain.jpg',
 
-            '//mediacdn.durite.us/walls/Nobu+Bamboo+Panels.JPG',
+            '//mediacdn.duriteusa.com/walls/Nobu+Bamboo+Panels.JPG',
 
-            '//mediacdn.durite.us/walls/Coral+Panels+at+entrance.JPG',
+            '//mediacdn.duriteusa.com/walls/Coral+Panels+at+entrance.JPG',
 
-            '//mediacdn.durite.us/walls/Coral+Reef+Wall+Panels+Light+in+off+position+.JPG',
+            '//mediacdn.duriteusa.com/walls/Coral+Reef+Wall+Panels+Light+in+off+position+.JPG',
 
-            '//mediacdn.durite.us/walls/CoralReef5.jpg',
+            '//mediacdn.duriteusa.com/walls/CoralReef5.jpg',
 
-            '//mediacdn.durite.us/walls/CoralReef8.jpg',
+            '//mediacdn.duriteusa.com/walls/CoralReef8.jpg',
 
-            '//mediacdn.durite.us/walls/Durite+Fountian+for+luis+De+Cruis.jpg',
+            '//mediacdn.duriteusa.com/walls/Durite+Fountian+for+luis+De+Cruis.jpg',
 
-            '//mediacdn.durite.us/walls/Fountian+picture.jpg',
+            '//mediacdn.duriteusa.com/walls/Fountian+picture.jpg',
 
-            '//mediacdn.durite.us/walls/Jimmy\'s+East+57.JPG',
+            '//mediacdn.duriteusa.com/walls/Jimmy\'s+East+57.JPG',
 
-            '//mediacdn.durite.us/walls/Nobu+Floor+%26+wall+Panels.JPG',
+            '//mediacdn.duriteusa.com/walls/Nobu+Floor+%26+wall+Panels.JPG',
 
-            '//mediacdn.durite.us/walls/Nobu+Floor+Panels.JPG',
+            '//mediacdn.duriteusa.com/walls/Nobu+Floor+Panels.JPG',
 
-            '//mediacdn.durite.us/walls/UN+Fountain+Wall.jpg',
+            '//mediacdn.duriteusa.com/walls/UN+Fountain+Wall.jpg',
 
-            '//mediacdn.durite.us/walls/UN+Wall+Fountain+2.jpg'
+            '//mediacdn.duriteusa.com/walls/UN+Wall+Fountain+2.jpg'
 
         ]
 

@@ -65,15 +65,15 @@ export default class ReactComponent extends React.Component {
         };
         const IMAGES = [
 
-            '//mediacdn.durite.us/Fabrication/Kitchen+Counter+Calicatta.JPG',
+            '//mediacdn.duriteusa.com/Fabrication/Kitchen+Counter+Calicatta.JPG',
 
-            '//mediacdn.durite.us/Fabrication/Kitchen+Counter.JPG',
+            '//mediacdn.duriteusa.com/Fabrication/Kitchen+Counter.JPG',
 
-            '//mediacdn.durite.us/Fabrication/Kitchen+Island+Panels+being+Assembled+.jpg',
+            '//mediacdn.duriteusa.com/Fabrication/Kitchen+Island+Panels+being+Assembled+.jpg',
 
-            '//mediacdn.durite.us/Fabrication/Table+Top+Fabrication.JPG',
+            '//mediacdn.duriteusa.com/Fabrication/Table+Top+Fabrication.JPG',
 
-            '//mediacdn.durite.us/Fabrication/Kitchen+Counter+%26+Sink+Same+Material.JPG'
+            '//mediacdn.duriteusa.com/Fabrication/Kitchen+Counter+%26+Sink+Same+Material.JPG'
 
         ]
 

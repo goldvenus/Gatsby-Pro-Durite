@@ -59,123 +59,123 @@ export default class ReactComponent extends React.Component {
 
         const IMAGES = [
 
-          '//mediacdn.durite.us/logos/911Memorial+Service.jpg',
+          '//mediacdn.duriteusa.com/logos/911Memorial+Service.jpg',
 
-          '//mediacdn.durite.us/logos/Beverly+High+Logo.JPG',
+          '//mediacdn.duriteusa.com/logos/Beverly+High+Logo.JPG',
 
-          '//mediacdn.durite.us/logos/Bridge+of+Life+Cromosome.jpg',
+          '//mediacdn.duriteusa.com/logos/Bridge+of+Life+Cromosome.jpg',
 
-          '//mediacdn.durite.us/logos/Emeril+Fish+Inlay+Vegas.jpg',
+          '//mediacdn.duriteusa.com/logos/Emeril+Fish+Inlay+Vegas.jpg',
 
-           '//mediacdn.durite.us/logos/+Flower+Wall+Panel.jpg',
+           '//mediacdn.duriteusa.com/logos/+Flower+Wall+Panel.jpg',
 
-           '//mediacdn.durite.us/logos/21+West+St+Mosaic+Pattern.JPG',
+           '//mediacdn.duriteusa.com/logos/21+West+St+Mosaic+Pattern.JPG',
 
-           '//mediacdn.durite.us/logos/3D+in+a+2D+Marble.jpg',
+           '//mediacdn.duriteusa.com/logos/3D+in+a+2D+Marble.jpg',
 
-           '//mediacdn.durite.us/logos/455+CPW+Art+Nouveau.jpg',
+           '//mediacdn.duriteusa.com/logos/455+CPW+Art+Nouveau.jpg',
 
-           '//mediacdn.durite.us/logos/9-11+American+Flag.JPG',
+           '//mediacdn.duriteusa.com/logos/9-11+American+Flag.JPG',
 
-           '//mediacdn.durite.us/logos/91-1+NYStte+Emblem+At+night.JPG',
+           '//mediacdn.duriteusa.com/logos/91-1+NYStte+Emblem+At+night.JPG',
 
-           '//mediacdn.durite.us/logos/911+Monument.JPG',
+           '//mediacdn.duriteusa.com/logos/911+Monument.JPG',
 
-           '//mediacdn.durite.us/logos/AC.+Resort+Durrazzo.JPG',
+           '//mediacdn.duriteusa.com/logos/AC.+Resort+Durrazzo.JPG',
 
-           '//mediacdn.durite.us/logos/Art+Nouveau+Tile+Panels.jpg',
+           '//mediacdn.duriteusa.com/logos/Art+Nouveau+Tile+Panels.jpg',
 
-           '//mediacdn.durite.us/logos/Bridge+of+Life+begining+point+DNA+copy.jpg',
+           '//mediacdn.duriteusa.com/logos/Bridge+of+Life+begining+point+DNA+copy.jpg',
 
-           '//mediacdn.durite.us/logos/COACH+Brass+Logo+in+Terrazzo.JPG',
+           '//mediacdn.duriteusa.com/logos/COACH+Brass+Logo+in+Terrazzo.JPG',
 
-           '//mediacdn.durite.us/logos/Crunch+at+Broadway.JPG',
+           '//mediacdn.duriteusa.com/logos/Crunch+at+Broadway.JPG',
 
-           '//mediacdn.durite.us/logos/DECA+LOGO+closeup+details.JPG',
+           '//mediacdn.duriteusa.com/logos/DECA+LOGO+closeup+details.JPG',
 
-           '//mediacdn.durite.us/logos/DECA+LOGO.JPG',
+           '//mediacdn.duriteusa.com/logos/DECA+LOGO.JPG',
 
-           '//mediacdn.durite.us/logos/Detail+of+Mosaic+Corner.jpg',
+           '//mediacdn.duriteusa.com/logos/Detail+of+Mosaic+Corner.jpg',
 
-           '//mediacdn.durite.us/logos/Durite+Floor+Inlay.JPG',
+           '//mediacdn.duriteusa.com/logos/Durite+Floor+Inlay.JPG',
 
-           '//mediacdn.durite.us/logos/Emeril\'s+Fish.jpg',
+           '//mediacdn.duriteusa.com/logos/Emeril\'s+Fish.jpg',
 
-           '//mediacdn.durite.us/logos/Example+of+floor+%26+Wall+Pebbles.jpg',
+           '//mediacdn.duriteusa.com/logos/Example+of+floor+%26+Wall+Pebbles.jpg',
 
-           '//mediacdn.durite.us/logos/Floor+Inlay.JPG',
+           '//mediacdn.duriteusa.com/logos/Floor+Inlay.JPG',
 
-           '//mediacdn.durite.us/logos/Gardinia+Floor.JPG',
+           '//mediacdn.duriteusa.com/logos/Gardinia+Floor.JPG',
 
-           '//mediacdn.durite.us/logos/Hudson+St+Floor%26+Interior+Lobby.JPG',
+           '//mediacdn.duriteusa.com/logos/Hudson+St+Floor%26+Interior+Lobby.JPG',
 
-            '//mediacdn.durite.us/logos/Hudson+St+Terrazzo+Lobby.JPG',
+            '//mediacdn.duriteusa.com/logos/Hudson+St+Terrazzo+Lobby.JPG',
 
-            '//mediacdn.durite.us/logos/ICast+Tiles.JPG',
+            '//mediacdn.duriteusa.com/logos/ICast+Tiles.JPG',
 
-            '//mediacdn.durite.us/logos/Installation+of+Nobu+Panels.bmp',
+            '//mediacdn.duriteusa.com/logos/Installation+of+Nobu+Panels.bmp',
 
-            '//mediacdn.durite.us/logos/Interior+Mosaics.jpg',
+            '//mediacdn.duriteusa.com/logos/Interior+Mosaics.jpg',
 
-            '//mediacdn.durite.us/logos/JPMC.jpg',
+            '//mediacdn.duriteusa.com/logos/JPMC.jpg',
 
-            '//mediacdn.durite.us/logos/Large+Art+Wall+Panel+In+terrazzo+media+Private+Collection.JPG',
+            '//mediacdn.duriteusa.com/logos/Large+Art+Wall+Panel+In+terrazzo+media+Private+Collection.JPG',
 
-            '//mediacdn.durite.us/logos/Lobby+Floor+%26+Desk.JPG',
+            '//mediacdn.duriteusa.com/logos/Lobby+Floor+%26+Desk.JPG',
 
-            '//mediacdn.durite.us/logos/Mass+Logo+after+completion.JPG',
+            '//mediacdn.duriteusa.com/logos/Mass+Logo+after+completion.JPG',
 
-            '//mediacdn.durite.us/logos/Mass+Logo+near+completion.JPG',
+            '//mediacdn.duriteusa.com/logos/Mass+Logo+near+completion.JPG',
 
-            '//mediacdn.durite.ust/logos/McCann+Erikson.jpg',
+            '//mediacdn.duriteusa.comt/logos/McCann+Erikson.jpg',
 
-            '//mediacdn.durite.us/logos/Mohegan+Sun+Summer+Entrance+30\'+Logo+Emblem.jpg',
+            '//mediacdn.duriteusa.com/logos/Mohegan+Sun+Summer+Entrance+30\'+Logo+Emblem.jpg',
 
-            '//mediacdn.durite.ust/logos/Mohegan+Sun+Summer+Entrance+Durrazzo+Corn.jpg',
+            '//mediacdn.duriteusa.comt/logos/Mohegan+Sun+Summer+Entrance+Durrazzo+Corn.jpg',
 
-            '//mediacdn.durite.ust/logos/Montefiore+Hospital+BRIDGE+of+LIFE.jpg',
+            '//mediacdn.duriteusa.comt/logos/Montefiore+Hospital+BRIDGE+of+LIFE.jpg',
 
-            '//mediacdn.durite.ust/logos/Montefiore+Pendulem+%26++Durite+Floor+Logos.jpg',
+            '//mediacdn.duriteusa.comt/logos/Montefiore+Pendulem+%26++Durite+Floor+Logos.jpg',
 
-            '//mediacdn.durite.ust/logos/Mosaic+Interior+Overall+View.jpg',
+            '//mediacdn.duriteusa.comt/logos/Mosaic+Interior+Overall+View.jpg',
 
-            '//mediacdn.durite.ust/logos/Mosaics+Closeup.jpg',
+            '//mediacdn.duriteusa.comt/logos/Mosaics+Closeup.jpg',
 
-            '//mediacdn.durite.ust/logos/Mosaics.jpg',
+            '//mediacdn.duriteusa.comt/logos/Mosaics.jpg',
 
-            '//mediacdn.durite.ust/logos/PH+Living+Room.jpg',
+            '//mediacdn.duriteusa.comt/logos/PH+Living+Room.jpg',
 
-            '//mediacdn.durite.ust/logos/Pattern+of+Circular+Tiles+old+sun+room.png',
+            '//mediacdn.duriteusa.comt/logos/Pattern+of+Circular+Tiles+old+sun+room.png',
 
-            '//mediacdn.durite.ust/logos/Planet+Hollywood+Brass+Inlay.jpg',
+            '//mediacdn.duriteusa.comt/logos/Planet+Hollywood+Brass+Inlay.jpg',
 
-            '//mediacdn.durite.ust/logos/Razzi+School+exterior+under+construction.JPG',
+            '//mediacdn.duriteusa.comt/logos/Razzi+School+exterior+under+construction.JPG',
 
-            '//mediacdn.durite.ust/logos/Razzi+School+exterior.JPG',
+            '//mediacdn.duriteusa.comt/logos/Razzi+School+exterior.JPG',
 
-            '//mediacdn.durite.ust/logos/Rent+the+Run+Way+Logo.JPG',
+            '//mediacdn.duriteusa.comt/logos/Rent+the+Run+Way+Logo.JPG',
 
-            '//mediacdn.durite.ust/logos/SBLI+Logo+Panel.JPG',
+            '//mediacdn.duriteusa.comt/logos/SBLI+Logo+Panel.JPG',
 
-            '//mediacdn.durite.ust/logos/St+Antonio+Museum+Men+Dress+Shoes+Way+Finding.JPG',
+            '//mediacdn.duriteusa.comt/logos/St+Antonio+Museum+Men+Dress+Shoes+Way+Finding.JPG',
 
-            '//mediacdn.durite.ust/logos/St.+Antonio+Museum+Way+Finding+Ladies+Dress+shoes.jpg',
+            '//mediacdn.duriteusa.comt/logos/St.+Antonio+Museum+Way+Finding+Ladies+Dress+shoes.jpg',
 
-            '//mediacdn.durite.ust/logos/St.+Antonio+Museum+Way+Finding+Tennis+shoes.JPG',
+            '//mediacdn.duriteusa.comt/logos/St.+Antonio+Museum+Way+Finding+Tennis+shoes.JPG',
 
-            '//mediacdn.durite.ust/logos/Stone+Water+jet+Inlay+in+Terrazzo+Floor+.JPG',
+            '//mediacdn.duriteusa.comt/logos/Stone+Water+jet+Inlay+in+Terrazzo+Floor+.JPG',
 
-            '//mediacdn.durite.ust/logos/Symphony+Hall+Durrazzo+Floor+Art.JPG',
+            '//mediacdn.duriteusa.comt/logos/Symphony+Hall+Durrazzo+Floor+Art.JPG',
 
-            '//mediacdn.durite.ust/logos/Terrazzo+Star+Burst+SBFL.JPG',
+            '//mediacdn.duriteusa.comt/logos/Terrazzo+Star+Burst+SBFL.JPG',
 
-            '//mediacdn.durite.ust/logos/The+Brill+Terrazzo+Emblem.JPG',
+            '//mediacdn.duriteusa.comt/logos/The+Brill+Terrazzo+Emblem.JPG',
 
-            '//mediacdn.durite.ust/logos/Tubular+forms.jpg',
+            '//mediacdn.duriteusa.comt/logos/Tubular+forms.jpg',
 
-            '//mediacdn.durite.ust/logos/Valentino+Corridors.jpg',
+            '//mediacdn.duriteusa.comt/logos/Valentino+Corridors.jpg',
 
-            '//mediacdn.durite.ust/logos/Water-Jet+Olive+Leafs+%26+Vine+Floor.JPG'
+            '//mediacdn.duriteusa.comt/logos/Water-Jet+Olive+Leafs+%26+Vine+Floor.JPG'
 
         ]
 

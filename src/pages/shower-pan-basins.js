@@ -67,19 +67,19 @@ export default class ReactComponent extends React.Component {
         };
         const IMAGES = [
 
-           '//mediacdn.durite.us/shower/Custom+Shower+Panel+Without+Curb.jpg',
+           '//mediacdn.duriteusa.com/shower/Custom+Shower+Panel+Without+Curb.jpg',
 
-           '//mediacdn.durite.us/shower/SHOWER+BASIN.JPG',
+           '//mediacdn.duriteusa.com/shower/SHOWER+BASIN.JPG',
 
-           '//mediacdn.durite.us/shower/Shower+Basin+Install.jpg',
+           '//mediacdn.duriteusa.com/shower/Shower+Basin+Install.jpg',
 
-           '//mediacdn.durite.us/shower/Shower+Basin+With+Raised+Edge.JPG',
+           '//mediacdn.duriteusa.com/shower/Shower+Basin+With+Raised+Edge.JPG',
 
-          '//mediacdn.durite.us/shower/Shower+Basin+with+raised+edges.JPG',
+          '//mediacdn.duriteusa.com/shower/Shower+Basin+with+raised+edges.JPG',
 
-           '//mediacdn.durite.us/shower/Shower+Panel+block+for+Glass+Insert.jpg',
+           '//mediacdn.duriteusa.com/shower/Shower+Panel+block+for+Glass+Insert.jpg',
 
-            '//mediacdn.durite.us/shower/Shower+on+hidden+drainage.JPG'
+            '//mediacdn.duriteusa.com/shower/Shower+on+hidden+drainage.JPG'
 
         ]
 
