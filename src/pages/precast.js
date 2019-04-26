@@ -70,48 +70,48 @@ export default class ReactComponent extends React.Component {
         };
         const IMAGES = [
 
-            'http://mediacdn.durite.us/precast/111-5th+ave+Exterior+Pre-cast+Molding.jpg',
+            '//d2q3s7l8p2303e.cloudfront.net/precast/111-5th+ave+Exterior+Pre-cast+Molding.jpg',
 
-            'http://mediacdn.durite.us/precast/116+CPW+Interior+Pre-cast+Hall+Way.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/precast/116+CPW+Interior+Pre-cast+Hall+Way.JPG',
 
-            'http://mediacdn.durite.us/precast/315+E+72st+Exterior+Facing+South+72+St.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/precast/315+E+72st+Exterior+Facing+South+72+St.JPG',
 
-            'http://mediacdn.durite.us/precast/650+6+Pre-Fab+Elevator+floor.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/precast/650+6+Pre-Fab+Elevator+floor.JPG',
 
-            'http://mediacdn.durite.us/precast/Cove+Base+%26+Round+Corners+.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/precast/Cove+Base+%26+Round+Corners+.JPG',
 
-            'http://mediacdn.durite.us/precast/Cove+base+Imbedded+in+Floor.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/precast/Cove+base+Imbedded+in+Floor.JPG',
 
-            'http://mediacdn.durite.us/precast/Epcot+Center+Coral+Reef+Interior+Wall+Panels.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/precast/Epcot+Center+Coral+Reef+Interior+Wall+Panels.JPG',
 
-            'http://mediacdn.durite.us/precast/Epcot+Center+Coral+Reef+looking+at+Water+Tank.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/precast/Epcot+Center+Coral+Reef+looking+at+Water+Tank.JPG',
 
-            'http://mediacdn.durite.us/precast/Hudson+Elevator+Floor.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/precast/Hudson+Elevator+Floor.JPG',
 
-            'http://mediacdn.durite.us/precast/In+and+Out+Cove+Base.jpg',
+            '//d2q3s7l8p2303e.cloudfront.net/precast/In+and+Out+Cove+Base.jpg',
 
-            'http://mediacdn.durite.us/precast/Large+Exterior+Panels+set+on+pedestal+Pavers.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/precast/Large+Exterior+Panels+set+on+pedestal+Pavers.JPG',
 
-            'http://mediacdn.durite.us/precast/Pre-Fab+Oyster+Bar+%26+Banquet.jpg',
+            '//d2q3s7l8p2303e.cloudfront.net/precast/Pre-Fab+Oyster+Bar+%26+Banquet.jpg',
 
-            'http://mediacdn.durite.us/precast/Pre-Fab+Oyster+BarBooth.jpg',
+            '//d2q3s7l8p2303e.cloudfront.net/precast/Pre-Fab+Oyster+BarBooth.jpg',
 
-            'http://mediacdn.durite.us/precast/Precast+Ceiling.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/precast/Precast+Ceiling.JPG',
 
-            'http://mediacdn.durite.us/precast/Precast+Round+Column+and+Corner+Base+%26+Star.jpg',
+            '//d2q3s7l8p2303e.cloudfront.net/precast/Precast+Round+Column+and+Corner+Base+%26+Star.jpg',
 
-            'http://mediacdn.durite.us/precast/Precast+Wall+Medallion.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/precast/Precast+Wall+Medallion.JPG',
 
-            'http://mediacdn.durite.us/precast/WALES+Hotel+Precast+EXTERIORS.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/precast/WALES+Hotel+Precast+EXTERIORS.JPG',
 
-            'http://mediacdn.durite.us/precast/WWF+Round+Table+Booth.jpg'
+            '//d2q3s7l8p2303e.cloudfront.net/precast/WWF+Round+Table+Booth.jpg'
 
         ]
 
         return (
           <Layout>
             <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-                <div className="container">
+                <div>
                     <Helmet title={`Durite | Precast`}/>
                     <div className="pageHeader">
                         <h2>PRECAST & WATER-JET TECHNOLOGY</h2>

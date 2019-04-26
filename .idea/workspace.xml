@@ -2,23 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24c97788-e59b-4cce-85c5-d5fcbd693f6f" name="Default Changelist" comment="Merge branch 'master' of github.com:Vaestro/durite-gatsby&#10;&#10;# Conflicts:&#10;#&#9;src/components/header.js">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/css/master.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/master.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/layout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/bathtub.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/bathtub.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/fabrication.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/fabrication.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/furniture.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/furniture.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/kitchen-bar-counter-tops.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/kitchen-bar-counter-tops.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/manufacturing.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/manufacturing.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/page-2.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/precast.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/precast.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/shower-pan-basins.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shower-pan-basins.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/stairs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/stairs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/vanity-top.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/vanity-top.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/walls.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/walls.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/water-jet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/water-jet.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/templates/blogTemplate.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/templates/blogTemplate.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -127,8 +123,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/bathtub.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="61" column="27" lean-forward="true" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="27" />
+            <state relative-caret-position="181">
+              <caret line="56" column="14" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -151,8 +147,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/furniture.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="453">
-              <caret line="79" column="92" selection-start-line="79" selection-start-column="92" selection-end-line="79" selection-end-column="92" />
+            <state relative-caret-position="237">
+              <caret line="71" column="90" selection-start-line="71" selection-start-column="90" selection-end-line="71" selection-end-column="90" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -183,8 +179,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/walls.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="88" selection-start-line="88" selection-end-line="88" />
+            <state relative-caret-position="-234">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
               <folding>
                 <element signature="e#0#25#0" expanded="true" />
               </folding>
@@ -223,8 +219,8 @@
       <find>Slideshow_image</find>
       <find>header_nav_menu</find>
       <find>our por</find>
-      <find>hr</find>
       <find>@media (max-width: 800px)</find>
+      <find>hr</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -405,12 +401,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556269908287</updated>
-      <workItem from="1556269910427" duration="33084000" />
+      <workItem from="1556269910427" duration="33540000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33084000" />
+    <option name="totallyTimeSpent" value="33540000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -431,7 +427,7 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" weight="0.36049107" />
+      <window_info anchor="bottom" id="Version Control" weight="0.23883928" />
       <window_info anchor="bottom" id="Terminal" weight="0.6104911" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.5002644" side_tool="true" weight="0.21428572" />
       <window_info anchor="bottom" id="Messages" weight="0.32924107" />
@@ -632,16 +628,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/blogTemplate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/header.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -652,20 +638,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="88" column="25" selection-start-line="88" selection-start-column="25" selection-end-line="88" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/furniture.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="453">
-          <caret line="79" column="92" selection-start-line="79" selection-start-column="92" selection-end-line="79" selection-end-column="92" />
+        <state relative-caret-position="237">
+          <caret line="71" column="90" selection-start-line="71" selection-start-column="90" selection-end-line="71" selection-end-column="90" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
@@ -707,8 +683,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/walls.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="88" selection-start-line="88" selection-end-line="88" />
+        <state relative-caret-position="-234">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="88" column="25" selection-start-line="88" selection-start-column="25" selection-end-line="88" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/blogTemplate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="34" column="19" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
@@ -717,8 +713,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/bathtub.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="61" column="27" lean-forward="true" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="27" />
+        <state relative-caret-position="181">
+          <caret line="56" column="14" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>

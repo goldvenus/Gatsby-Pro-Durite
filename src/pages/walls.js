@@ -62,46 +62,46 @@ export default class ReactComponent extends React.Component {
 
         const IMAGES = [
 
-            'http://mediacdn.durite.us/walls/Nobu+Wall+%26+Floors.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/walls/Nobu+Wall+%26+Floors.JPG',
 
-             'http://mediacdn.durite.us/walls/citerela+wall+panels.JPG',
+             '//d2q3s7l8p2303e.cloudfront.net/walls/citerela+wall+panels.JPG',
 
-             'http://mediacdn.durite.us/walls/Coral+Translucent+panels-2.JPG',
+             '//d2q3s7l8p2303e.cloudfront.net/walls/Coral+Translucent+panels-2.JPG',
 
-            'http://mediacdn.durite.us/walls/Coral+panel+on+left.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/walls/Coral+panel+on+left.JPG',
 
-          'http://mediacdn.durite.us/walls/UN+Fountain.jpg',
+          '//d2q3s7l8p2303e.cloudfront.net/walls/UN+Fountain.jpg',
 
-            'http://mediacdn.durite.us/walls/Nobu+Bamboo+Panels.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/walls/Nobu+Bamboo+Panels.JPG',
 
-            'http://mediacdn.durite.us/walls/Coral+Panels+at+entrance.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/walls/Coral+Panels+at+entrance.JPG',
 
-            'http://mediacdn.durite.us/walls/Coral+Reef+Wall+Panels+Light+in+off+position+.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/walls/Coral+Reef+Wall+Panels+Light+in+off+position+.JPG',
 
-            'http://mediacdn.durite.us/walls/CoralReef5.jpg',
+            '//d2q3s7l8p2303e.cloudfront.net/walls/CoralReef5.jpg',
 
-            'http://mediacdn.durite.us/walls/CoralReef8.jpg',
+            '//d2q3s7l8p2303e.cloudfront.net/walls/CoralReef8.jpg',
 
-            'http://mediacdn.durite.us/walls/Durite+Fountian+for+luis+De+Cruis.jpg',
+            '//d2q3s7l8p2303e.cloudfront.net/walls/Durite+Fountian+for+luis+De+Cruis.jpg',
 
-            'http://mediacdn.durite.us/walls/Fountian+picture.jpg',
+            '//d2q3s7l8p2303e.cloudfront.net/walls/Fountian+picture.jpg',
 
-            'http://mediacdn.durite.us/walls/Jimmy\'s+East+57.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/walls/Jimmy\'s+East+57.JPG',
 
-            'http://mediacdn.durite.us/walls/Nobu+Floor+%26+wall+Panels.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/walls/Nobu+Floor+%26+wall+Panels.JPG',
 
-            'http://mediacdn.durite.us/walls/Nobu+Floor+Panels.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/walls/Nobu+Floor+Panels.JPG',
 
-            'http://mediacdn.durite.us/walls/UN+Fountain+Wall.jpg',
+            '//d2q3s7l8p2303e.cloudfront.net/walls/UN+Fountain+Wall.jpg',
 
-            'http://mediacdn.durite.us/walls/UN+Wall+Fountain+2.jpg'
+            '//d2q3s7l8p2303e.cloudfront.net/walls/UN+Wall+Fountain+2.jpg'
 
         ]
 
         return (
           <Layout>
             <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-                <div className="container">
+                <div>
                     <Helmet title={`Durite | Walls & Wainscot`}/>
                     <div className="pageHeader">
                         <h2>Walls & Wainscot</h2>

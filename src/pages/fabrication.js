@@ -65,22 +65,22 @@ export default class ReactComponent extends React.Component {
         };
         const IMAGES = [
 
-            'http://mediacdn.durite.us/Fabrication/Kitchen+Counter+Calicatta.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/Fabrication/Kitchen+Counter+Calicatta.JPG',
 
-            'http://mediacdn.durite.us/Fabrication/Kitchen+Counter.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/Fabrication/Kitchen+Counter.JPG',
 
-            'http://mediacdn.durite.us/Fabrication/Kitchen+Island+Panels+being+Assembled+.jpg',
+            '//d2q3s7l8p2303e.cloudfront.net/Fabrication/Kitchen+Island+Panels+being+Assembled+.jpg',
 
-            'http://mediacdn.durite.us/Fabrication/Table+Top+Fabrication.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/Fabrication/Table+Top+Fabrication.JPG',
 
-            'http://mediacdn.durite.us/Fabrication/Kitchen+Counter+%26+Sink+Same+Material.JPG'
+            '//d2q3s7l8p2303e.cloudfront.net/Fabrication/Kitchen+Counter+%26+Sink+Same+Material.JPG'
 
         ]
 
         return (
           <Layout>
             <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-                <div className="container">
+                <div>
                     <Helmet title={`Durite | Fabrication`}/>
                     <div className="pageHeader">
                         <h2>Fabrication</h2>

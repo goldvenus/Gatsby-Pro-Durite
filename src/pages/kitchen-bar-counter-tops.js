@@ -69,52 +69,52 @@ export default class ReactComponent extends React.Component {
         };
         const IMAGES = [
 
-            'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Susan+Counter+Top+2.JPG',
-          
-            'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Greene+Island+%26+Kitchen+Top.jpg',
-          
-                 'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Back+of+Wall+%26+Bar+Top+One+Piece.JPG',
-            
-                 'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Citarella+Bar.JPG',
-            
-                 'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Example+of+Pebble+panels.jpg',
-            
-              'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Fabrication+Table+Top.jpg',
-            
-                'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/GRN+Island+Thickness.jpg',
-            
-              'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/GRN+Kitchen+Sink%2C+Counter+%26+Black-Splash+One+Piece.jpg',
-            
-              'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Gansvourt+Bar+Corner+100\'+length+one+piece.JPG',
-            
-              'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Gansvourt+Bar+Section.JPG',
-            
-              'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/JFK+Avion+Cafe+Bar+top.jpg',
-            
-              'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/JFK+Avion+Cafe+Counter+Top.jpg',
-            
-              'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Kitchen+%26+Island.jpg',
-            
-              'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Kitchen+Island+Top.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/Kitchen+%26+Bar+Countertops/Susan+Counter+Top+2.JPG',
 
-              'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Kitchen+Walkway.jpg',
-            
-              'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Olympia+Tower+Kitchen.JPG',
-            
-              'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Radius+one+piece+Oyster+Bar.JPG',
-            
-              'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Susan+Counter+Top.JPG',
-            
-              'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Susan+Custom+Made+Counter+Top+2+(1).JPG',
-            
-              'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Zen+Palate+Table+Top.jpg'
+            '//d2q3s7l8p2303e.cloudfront.net/Kitchen+%26+Bar+Countertops/Greene+Island+%26+Kitchen+Top.jpg',
+
+                 '//d2q3s7l8p2303e.cloudfront.net/Kitchen+%26+Bar+Countertops/Back+of+Wall+%26+Bar+Top+One+Piece.JPG',
+
+                 '//d2q3s7l8p2303e.cloudfront.net/Kitchen+%26+Bar+Countertops/Citarella+Bar.JPG',
+
+                 '//d2q3s7l8p2303e.cloudfront.net/Kitchen+%26+Bar+Countertops/Example+of+Pebble+panels.jpg',
+
+              '//d2q3s7l8p2303e.cloudfront.net/Kitchen+%26+Bar+Countertops/Fabrication+Table+Top.jpg',
+
+                '//d2q3s7l8p2303e.cloudfront.net/Kitchen+%26+Bar+Countertops/GRN+Island+Thickness.jpg',
+
+              '//d2q3s7l8p2303e.cloudfront.net/Kitchen+%26+Bar+Countertops/GRN+Kitchen+Sink%2C+Counter+%26+Black-Splash+One+Piece.jpg',
+
+              '//d2q3s7l8p2303e.cloudfront.net/Kitchen+%26+Bar+Countertops/Gansvourt+Bar+Corner+100\'+length+one+piece.JPG',
+
+              '//d2q3s7l8p2303e.cloudfront.net/Kitchen+%26+Bar+Countertops/Gansvourt+Bar+Section.JPG',
+
+              '//d2q3s7l8p2303e.cloudfront.net/Kitchen+%26+Bar+Countertops/JFK+Avion+Cafe+Bar+top.jpg',
+
+              '//d2q3s7l8p2303e.cloudfront.net/Kitchen+%26+Bar+Countertops/JFK+Avion+Cafe+Counter+Top.jpg',
+
+              '//d2q3s7l8p2303e.cloudfront.net/Kitchen+%26+Bar+Countertops/Kitchen+%26+Island.jpg',
+
+              '//d2q3s7l8p2303e.cloudfront.net/Kitchen+%26+Bar+Countertops/Kitchen+Island+Top.JPG',
+
+              '//d2q3s7l8p2303e.cloudfront.net/Kitchen+%26+Bar+Countertops/Kitchen+Walkway.jpg',
+
+              '//d2q3s7l8p2303e.cloudfront.net/Kitchen+%26+Bar+Countertops/Olympia+Tower+Kitchen.JPG',
+
+              '//d2q3s7l8p2303e.cloudfront.net/Kitchen+%26+Bar+Countertops/Radius+one+piece+Oyster+Bar.JPG',
+
+              '//d2q3s7l8p2303e.cloudfront.net/Kitchen+%26+Bar+Countertops/Susan+Counter+Top.JPG',
+
+              '//d2q3s7l8p2303e.cloudfront.net/Kitchen+%26+Bar+Countertops/Susan+Custom+Made+Counter+Top+2+(1).JPG',
+
+              '//d2q3s7l8p2303e.cloudfront.net/Kitchen+%26+Bar+Countertops/Zen+Palate+Table+Top.jpg'
 
         ]
 
         return (
           <Layout>
             <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-                <div className="container">
+                <div>
                     <Helmet title={`Durite | Kitchen & Bar Countertops`}/>
                     <div className="pageHeader">
                         <h2>Kitchen & Bar Countertops</h2>

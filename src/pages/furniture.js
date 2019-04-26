@@ -67,26 +67,26 @@ export default class ReactComponent extends React.Component {
         };
         const IMAGES = [
 
-            'http://mediacdn.durite.us/furniture/650+6+Lobby+Bench+Furniture.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/furniture/650+6+Lobby+Bench+Furniture.JPG',
 
-           'http://mediacdn.durite.us/furniture/Cabinetry+%26+Milk+Glass+Floor.JPG',
+           '//d2q3s7l8p2303e.cloudfront.net/furniture/Cabinetry+%26+Milk+Glass+Floor.JPG',
 
-           'http://mediacdn.durite.us/furniture/Champs+Shoe+Bench.jpg',
+           '//d2q3s7l8p2303e.cloudfront.net/furniture/Champs+Shoe+Bench.jpg',
 
-           'http://mediacdn.durite.us/furniture/Citarella+Cashier+Desk+at+Rockefeller+Ctr.jpg',
+           '//d2q3s7l8p2303e.cloudfront.net/furniture/Citarella+Cashier+Desk+at+Rockefeller+Ctr.jpg',
 
-           'http://mediacdn.durite.us/furniture/McCann+Erickson+Desk+%26+Floor.JPG',
+           '//d2q3s7l8p2303e.cloudfront.net/furniture/McCann+Erickson+Desk+%26+Floor.JPG',
 
-           'http://mediacdn.durite.us/furniture/Seating+Furniture+%26+Floor+Milk+Glass.JPG',
+           '//d2q3s7l8p2303e.cloudfront.net/furniture/Seating+Furniture+%26+Floor+Milk+Glass.JPG',
 
-           'http://mediacdn.durite.us/furniture/Water-Jet+Olive+Leafs%2C+Vines+%26+flower+buds+Table.JPG'
+           '//d2q3s7l8p2303e.cloudfront.net/furniture/Water-Jet+Olive+Leafs%2C+Vines+%26+flower+buds+Table.JPG'
 
         ]
 
         return (
           <Layout>
             <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-                <div className="container">
+                <div>
                     <Helmet title={`Durite | Furniture & Urn/Planters`}/>
                     <div className="pageHeader">
                         <h2>Furniture & Urn/Planters:</h2>

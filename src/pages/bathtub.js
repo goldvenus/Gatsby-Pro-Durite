@@ -65,39 +65,39 @@ export default class ReactComponent extends React.Component {
         };
         const IMAGES = [
 
-            'http://mediacdn.durite.us/Bathtub+%26+Fixtures/BARBARA+BATHROOM.jpg',
+            '//d2q3s7l8p2303e.cloudfront.net/Bathtub+%26+Fixtures/BARBARA+BATHROOM.jpg',
 
-            'http://mediacdn.durite.us/Bathtub+%26+Fixtures/Bath+Tub+%26+Wall+Panels.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/Bathtub+%26+Fixtures/Bath+Tub+%26+Wall+Panels.JPG',
 
-            'http://mediacdn.durite.us/Bathtub+%26+Fixtures/CRUSHED+GLASS+FLOORS.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/Bathtub+%26+Fixtures/CRUSHED+GLASS+FLOORS.JPG',
 
-            'http://mediacdn.durite.us/Bathtub+%26+Fixtures/Fairfax+BRM+SMALL+SIZE.jpg',
+            '//d2q3s7l8p2303e.cloudfront.net/Bathtub+%26+Fixtures/Fairfax+BRM+SMALL+SIZE.jpg',
 
-             'http://mediacdn.durite.us/Bathtub+%26+Fixtures/Fairfax+Bench+%26+Panels.jpg',
+             '//d2q3s7l8p2303e.cloudfront.net/Bathtub+%26+Fixtures/Fairfax+Bench+%26+Panels.jpg',
 
-             'http://mediacdn.durite.us/Bathtub+%26+Fixtures/Fairfax+Sink.jpg',
+             '//d2q3s7l8p2303e.cloudfront.net/Bathtub+%26+Fixtures/Fairfax+Sink.jpg',
 
-             'http://mediacdn.durite.us/Bathtub+%26+Fixtures/Fountain+-Jacuzzi.JPG',
+             '//d2q3s7l8p2303e.cloudfront.net/Bathtub+%26+Fixtures/Fountain+-Jacuzzi.JPG',
 
-            'http://mediacdn.durite.us/Bathtub+%26+Fixtures/Fountain-+Jacuzzi.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/Bathtub+%26+Fixtures/Fountain-+Jacuzzi.JPG',
 
-            'http://mediacdn.durite.us/Bathtub+%26+Fixtures/GRN+Gray+Mirror+Tub+Surround+%26+Bathroom+.jpg',
+            '//d2q3s7l8p2303e.cloudfront.net/Bathtub+%26+Fixtures/GRN+Gray+Mirror+Tub+Surround+%26+Bathroom+.jpg',
 
-            'http://mediacdn.durite.us/Bathtub+%26+Fixtures/GRN+Gray+Vanity+Mirror-2.jpg',
+            '//d2q3s7l8p2303e.cloudfront.net/Bathtub+%26+Fixtures/GRN+Gray+Vanity+Mirror-2.jpg',
 
-            'http://mediacdn.durite.us/Bathtub+%26+Fixtures/Molded+Tub.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/Bathtub+%26+Fixtures/Molded+Tub.JPG',
 
-            'http://mediacdn.durite.us/Bathtub+%26+Fixtures/Moroccan+Fountain+With+Leaf+Impression.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/Bathtub+%26+Fixtures/Moroccan+Fountain+With+Leaf+Impression.JPG',
 
-            'http://mediacdn.durite.us/Bathtub+%26+Fixtures/TUB+Surround+Panel.jpg',
+            '//d2q3s7l8p2303e.cloudfront.net/Bathtub+%26+Fixtures/TUB+Surround+Panel.jpg',
 
-            'http://mediacdn.durite.us/Bathtub+%26+Fixtures/Tub+%26+Walls+Same+Material.JPG'
+            '//d2q3s7l8p2303e.cloudfront.net/Bathtub+%26+Fixtures/Tub+%26+Walls+Same+Material.JPG'
         ]
 
         return (
           <Layout>
             <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-                <div className="container">
+                <div>
                     <Helmet title={`Durite | Bathtubs & Fixtures`}/>
                     <div className="pageHeader">
                         <h2>Bathtubs & Fixtures</h2>

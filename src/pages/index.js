@@ -40,15 +40,15 @@ export default class IndexPage extends React.Component {
 
     const IMAGES = [
 
-        '//mediacdn.durite.us/Jimmys+Bar+Very+Dark+edite+4-02-02.JPG',
+        '//d2q3s7l8p2303e.cloudfront.net/Jimmys+Bar+Very+Dark+edite+4-02-02.JPG',
 
-        '//mediacdn.durite.us/Jimmys+Bar.JPG',
+        '//d2q3s7l8p2303e.cloudfront.net/Jimmys+Bar.JPG',
 
-        '//mediacdn.durite.us/Noche+Loca.JPG',
+        '//d2q3s7l8p2303e.cloudfront.net/Noche+Loca.JPG',
 
-        '//mediacdn.durite.us/White+Glass+Composition+Floor.JPG',
+        '//d2q3s7l8p2303e.cloudfront.net/White+Glass+Composition+Floor.JPG',
 
-        '//mediacdn.durite.us/Coral+looking+at+tank+on+left.JPG'
+        '//d2q3s7l8p2303e.cloudfront.net/Coral+looking+at+tank+on+left.JPG'
 
     ]
     return (

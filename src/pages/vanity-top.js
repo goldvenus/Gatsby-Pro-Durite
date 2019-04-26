@@ -58,30 +58,30 @@ export default class ReactComponent extends React.Component {
     render() {
         const IMAGES = [
 
-            'http://mediacdn.durite.us/vanity+top/3D+Cast+Sink+%26+Counter+Same+Material.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/vanity+top/3D+Cast+Sink+%26+Counter+Same+Material.JPG',
 
-            'http://mediacdn.durite.us/vanity+top/Fairfax+Vanity+Top.jpg',
+            '//d2q3s7l8p2303e.cloudfront.net/vanity+top/Fairfax+Vanity+Top.jpg',
 
-            'http://mediacdn.durite.us/vanity+top/GRN+Gray+Mirror+Vanity+Sink.jpg',
+            '//d2q3s7l8p2303e.cloudfront.net/vanity+top/GRN+Gray+Mirror+Vanity+Sink.jpg',
 
-            'http://mediacdn.durite.us/vanity+top/GRN+White+Mirror+Vanity.jpg',
+            '//d2q3s7l8p2303e.cloudfront.net/vanity+top/GRN+White+Mirror+Vanity.jpg',
 
-          'http://mediacdn.durite.us/vanity+top/Giraffe+Hotel+Ladies+Powder+Room+Vanity.JPG',
+          '//d2q3s7l8p2303e.cloudfront.net/vanity+top/Giraffe+Hotel+Ladies+Powder+Room+Vanity.JPG',
 
-            'http://mediacdn.durite.us/vanity+top/TROUGH+SINK.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/vanity+top/TROUGH+SINK.JPG',
 
-            'http://mediacdn.durite.us/vanity+top/Trough+Sink+With+Slot+Drain.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/vanity+top/Trough+Sink+With+Slot+Drain.JPG',
 
-            'http://mediacdn.durite.us/vanity+top/Vanity+Cast+Top+and+Sinks+Single+piece.jpg',
+            '//d2q3s7l8p2303e.cloudfront.net/vanity+top/Vanity+Cast+Top+and+Sinks+Single+piece.jpg',
 
-            'http://mediacdn.durite.us/vanity+top/W-Hotel+Custom+Shells+Vanity+Top.JPG'
+            '//d2q3s7l8p2303e.cloudfront.net/vanity+top/W-Hotel+Custom+Shells+Vanity+Top.JPG'
 
         ]
 
         return (
           <Layout>
             <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-                <div className="container">
+                <div>
                     <Helmet title={`Durite | Vanity Tops`}/>
                     <div className="pageHeader">
                         <h2>Vanity Tops</h2>

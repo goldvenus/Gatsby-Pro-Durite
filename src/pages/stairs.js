@@ -70,46 +70,46 @@ export default class ReactComponent extends React.Component {
         };
         const IMAGES = [
 
-            'http://mediacdn.durite.us/stairs/Arup+Concrete+Polymer+Nome-Cracking+Stairs.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/stairs/Arup+Concrete+Polymer+Nome-Cracking+Stairs.JPG',
 
-            'http://mediacdn.durite.us/stairs/Arup+Stair+Pans+filled+with+Concrete+Polymer.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/stairs/Arup+Stair+Pans+filled+with+Concrete+Polymer.JPG',
 
-            'http://mediacdn.durite.us/stairs/Bowlmor+Lanes+Translucent+Stairs.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/stairs/Bowlmor+Lanes+Translucent+Stairs.JPG',
 
-            'http://mediacdn.durite.us/stairs/Floor+to+Stepping+Stone.jpg',
+            '//d2q3s7l8p2303e.cloudfront.net/stairs/Floor+to+Stepping+Stone.jpg',
 
-            'http://mediacdn.durite.us/stairs/Greene+Winged+Stairs.jpg',
+            '//d2q3s7l8p2303e.cloudfront.net/stairs/Greene+Winged+Stairs.jpg',
 
-            'http://mediacdn.durite.us/stairs/Lacoste+Airplane+Winged+Stair.jpg',
+            '//d2q3s7l8p2303e.cloudfront.net/stairs/Lacoste+Airplane+Winged+Stair.jpg',
 
-            'http://mediacdn.durite.us/stairs/Lacoste+Stairs+View+from+Exterior.jpg',
+            '//d2q3s7l8p2303e.cloudfront.net/stairs/Lacoste+Stairs+View+from+Exterior.jpg',
 
-            'http://mediacdn.durite.us/stairs/PH+Interior+Overall.jpg',
+            '//d2q3s7l8p2303e.cloudfront.net/stairs/PH+Interior+Overall.jpg',
 
-            'http://mediacdn.durite.us/stairs/PH+Stairs+Head+On+Shot.jpg',
+            '//d2q3s7l8p2303e.cloudfront.net/stairs/PH+Stairs+Head+On+Shot.jpg',
 
-            'http://mediacdn.durite.us/stairs/PH+Stairs.jpg',
+            '//d2q3s7l8p2303e.cloudfront.net/stairs/PH+Stairs.jpg',
 
-            'http://mediacdn.durite.us/stairs/PH+Steps+to+Exterior.jpg',
+            '//d2q3s7l8p2303e.cloudfront.net/stairs/PH+Steps+to+Exterior.jpg',
 
-            'http://mediacdn.durite.us/stairs/Public+Theater+Nosing.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/stairs/Public+Theater+Nosing.JPG',
 
-            'http://mediacdn.durite.us/stairs/Publice+Theater+Grand+Stairs.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/stairs/Publice+Theater+Grand+Stairs.JPG',
 
-            'http://mediacdn.durite.us/stairs/Single+piece+Tread+%26+Riser+Off-Set+at+70+degrees.jpg',
+            '//d2q3s7l8p2303e.cloudfront.net/stairs/Single+piece+Tread+%26+Riser+Off-Set+at+70+degrees.jpg',
 
-            'http://mediacdn.durite.us/stairs/Single+piece+Tread+%26+Riser.jpg',
+            '//d2q3s7l8p2303e.cloudfront.net/stairs/Single+piece+Tread+%26+Riser.jpg',
 
-            'http://mediacdn.durite.us/stairs/Stair+Risers.JPG',
+            '//d2q3s7l8p2303e.cloudfront.net/stairs/Stair+Risers.JPG',
 
-            'http://mediacdn.durite.us/stairs/Stair+Treads+%26+Risers+Separate+Pieces+Prefab+%26+Install.JPG'
+            '//d2q3s7l8p2303e.cloudfront.net/stairs/Stair+Treads+%26+Risers+Separate+Pieces+Prefab+%26+Install.JPG'
 
         ]
 
         return (
           <Layout>
             <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-                <div className="container">
+                <div>
                     <Helmet title={`Durite | Stairs, Treads, & Risers`}/>
                     <div className="pageHeader">
                         <h2>Stairs, Treads, & Risers</h2>

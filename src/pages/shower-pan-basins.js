@@ -67,26 +67,26 @@ export default class ReactComponent extends React.Component {
         };
         const IMAGES = [
 
-           'http://mediacdn.durite.us/shower/Custom+Shower+Panel+Without+Curb.jpg',
+           '//d2q3s7l8p2303e.cloudfront.net/shower/Custom+Shower+Panel+Without+Curb.jpg',
 
-           'http://mediacdn.durite.us/shower/SHOWER+BASIN.JPG',
+           '//d2q3s7l8p2303e.cloudfront.net/shower/SHOWER+BASIN.JPG',
 
-           'http://mediacdn.durite.us/shower/Shower+Basin+Install.jpg',
+           '//d2q3s7l8p2303e.cloudfront.net/shower/Shower+Basin+Install.jpg',
 
-           'http://mediacdn.durite.us/shower/Shower+Basin+With+Raised+Edge.JPG',
+           '//d2q3s7l8p2303e.cloudfront.net/shower/Shower+Basin+With+Raised+Edge.JPG',
 
-          'http://mediacdn.durite.us/shower/Shower+Basin+with+raised+edges.JPG',
+          '//d2q3s7l8p2303e.cloudfront.net/shower/Shower+Basin+with+raised+edges.JPG',
 
-           'http://mediacdn.durite.us/shower/Shower+Panel+block+for+Glass+Insert.jpg',
+           '//d2q3s7l8p2303e.cloudfront.net/shower/Shower+Panel+block+for+Glass+Insert.jpg',
 
-            'http://mediacdn.durite.us/shower/Shower+on+hidden+drainage.JPG'
+            '//d2q3s7l8p2303e.cloudfront.net/shower/Shower+on+hidden+drainage.JPG'
 
         ]
 
         return (
           <Layout>
             <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-                <div className="container">
+                <div>
                     <Helmet title={`Durite | Shower Pan/Basins`}/>
                     <div className="pageHeader">
                         <h2>Shower Pan/Basins</h2>

@@ -69,31 +69,31 @@ export default class ReactComponent extends React.Component {
             responsive:[{ breakpoint: 768, settings: { slidesToShow: 1 } }]
         };
         const IMAGES = [
-          
-               'http://mediacdn.durite.us/manufacturing/Champs+Cashier+Desk.jpg',
-          
-               'http://mediacdn.durite.us/manufacturing/Tiffany+Pantry+Area.JPG',
-           
-               'http://mediacdn.durite.us/manufacturing/Tiffany+Pantry+Kitchen+Top%2C+Island+and+floor.JPG',
-          
-                 'http://mediacdn.durite.us/manufacturing/Brooklyn+College+Library+DeskTop.JPG',
-             
-              'http://mediacdn.durite.us/manufacturing/Brooklyn+College+Library+Info+DeskTop+Two+Levels.JPG',
-            
-                 'http://mediacdn.durite.us/manufacturing/Brooklyn+College+Library+Information+DeskTop.JPG',
-             
-                 'http://mediacdn.durite.us/manufacturing/Brooklyn+College.JPG',
-             
-                 'http://mediacdn.durite.us/manufacturing/Champs+Cashier+Desk+(1).JPG',
-              
-                 'http://mediacdn.durite.us/manufacturing/City+Center+Grand+Stairs.JPG'
-            
+
+               '//d2q3s7l8p2303e.cloudfront.net/manufacturing/Champs+Cashier+Desk.jpg',
+
+               '//d2q3s7l8p2303e.cloudfront.net/manufacturing/Tiffany+Pantry+Area.JPG',
+
+               '//d2q3s7l8p2303e.cloudfront.net/manufacturing/Tiffany+Pantry+Kitchen+Top%2C+Island+and+floor.JPG',
+
+                 '//d2q3s7l8p2303e.cloudfront.net/manufacturing/Brooklyn+College+Library+DeskTop.JPG',
+
+              '//d2q3s7l8p2303e.cloudfront.net/manufacturing/Brooklyn+College+Library+Info+DeskTop+Two+Levels.JPG',
+
+                 '//d2q3s7l8p2303e.cloudfront.net/manufacturing/Brooklyn+College+Library+Information+DeskTop.JPG',
+
+                 '//d2q3s7l8p2303e.cloudfront.net/manufacturing/Brooklyn+College.JPG',
+
+                 '//d2q3s7l8p2303e.cloudfront.net/manufacturing/Champs+Cashier+Desk+(1).JPG',
+
+                 '//d2q3s7l8p2303e.cloudfront.net/manufacturing/City+Center+Grand+Stairs.JPG'
+
         ]
 
         return (
           <Layout>
             <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-                <div className="container">
+                <div>
                     <Helmet title={`Durite | Manufacturing`}/>
                     <div className="pageHeader">
                         <h2>Manufacturing</h2>
