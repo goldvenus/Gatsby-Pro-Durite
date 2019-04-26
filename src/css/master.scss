@@ -250,3 +250,28 @@ li a h4 {
 .mobile-header-menu {
     display: none;
 }
+.ReactModal__Overlay {
+    background-color: white !important;
+}
+.mobile_nav_menu{
+    display: block;
+    height: 100%;
+    text-align: center;
+    .mobile_nav_text{
+        padding-top:4vh;
+        font-size: 22px;
+        color: #000;
+        font-family: "Helvetica Neue Arial";
+        font-weight: 600;
+    }
+
+
+}
+.nav_close_btn {
+    background-image: url("../images/nav_close.svg");
+    background-repeat: no-repeat;
+    padding:5px;
+    margin:10px;
+    width: 30px;
+    height: 30px;
+}

@@ -1,17 +1,27 @@
 import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
+import ReactModal from 'react-modal'
 import { Container, Nav, NavItem } from "react-bootstrap"
 
 class Header extends React.Component {
-  render () {
+  constructor (props) {
+    super (props);
     this.state = {
-      mobile_state: false
+      isModalOpen: false
     }
-    const changeview = () =>{
-      console.log("View Change", this.state.mobile_state);
-      this.state.mobile_state = !this.state.mobile_state;
-    }
+  }
+  handleModalOpen = event => {
+    // console.log('handleModalOpen: ', event);
+    this.setState({ isModalOpen: true })
+  }
+
+  handleModalClose = event => {
+    // console.log('handleModalOpen: ', event);
+    this.setState({ isModalOpen: false })
+  }
+  render () {
+
+
     return (
       <header>
         <Container className="container" style={{
@@ -49,45 +59,40 @@ class Header extends React.Component {
                 </NavItem>
               </Link>
             </div>
-            <div className="mobile-header-menu col-9" onClick={changeview}>
-              <img src={require('../images/menu-lines.svg')} onClick={changeview}/>
+            <div className="mobile-header-menu col-9" onClick={this.handleModalOpen}>
+              <img src={require('../images/menu-lines.svg')}/>
             </div>
           </Nav>
         </Container>
-        {
-          this.state.mobile_state===true ?
-            <div style={{
-              'width': `100%`,
-              'height': `100%`,
-              'position': `fixed`,
-              'display': `block`,
-              'background-color': `white`,
-              'z-index': '1'
-            }}>
-              <Link to='/about/'>
-                <NavItem eventKey={1}>
-                  <div>About</div>
-                </NavItem>
-              </Link>
-              <Link to='/partnering/'>
-                <NavItem eventKey={2}>
-                  <div>Partnering</div>
-                </NavItem>
-              </Link>
-              <Link to='/chemistry/'>
-                <NavItem eventKey={3}>
-                  <div>Chemistry of Polymers</div>
-                </NavItem>
-              </Link>
-              <Link to='/nature/'>
-                <NavItem eventKey={4}>
-                  <div>From Nature to Lab</div>
-                </NavItem>
-              </Link>
-            </div>
-            :
-            null
-        }
+        <ReactModal
+          isOpen={this.state.isModalOpen}
+          className = "ModalDialog"
+          onRequestClose={this.handleModalClose}
+          contentLabel="Example Modal In Gatsby">
+          <div className="nav_close_btn" onClick={this.handleModalClose}/>
+          <div className = "mobile_nav_menu">
+            <Link to='/about/'>
+              <NavItem eventKey={1}>
+                <div className="mobile_nav_text">About</div>
+              </NavItem>
+            </Link>
+            <Link to='/partnering/'>
+              <NavItem eventKey={2}>
+                <div className="mobile_nav_text">Partnering</div>
+              </NavItem>
+            </Link>
+            <Link to='/chemistry/'>
+              <NavItem eventKey={3}>
+                <div className="mobile_nav_text">Chemistry of Polymers</div>
+              </NavItem>
+            </Link>
+            <Link to='/nature/'>
+              <NavItem eventKey={4}>
+                <div className="mobile_nav_text">From Nature to Lab</div>
+              </NavItem>
+            </Link>
+          </div>
+        </ReactModal>
 
 
       </header>

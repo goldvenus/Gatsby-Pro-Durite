@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="24c97788-e59b-4cce-85c5-d5fcbd693f6f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/css/master.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/css/master.scss" afterDir="false" />
     </list>
@@ -27,8 +30,9 @@
           <entry key="css" value="2" />
           <entry key="js" value="13" />
           <entry key="json" value="1" />
+          <entry key="rnc" value="1" />
           <entry key="scss" value="1" />
-          <entry key="svg" value="3" />
+          <entry key="svg" value="5" />
           <entry key="ts" value="3" />
         </counts>
       </usages-collector>
@@ -37,26 +41,29 @@
           <entry key="CSS" value="2" />
           <entry key="JSON" value="1" />
           <entry key="JavaScript" value="13" />
+          <entry key="RNG Compact" value="1" />
           <entry key="SCSS" value="1" />
-          <entry key="SVG" value="3" />
+          <entry key="SVG" value="5" />
           <entry key="TypeScript" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="6" />
-          <entry key="js" value="2050" />
+          <entry key="js" value="2355" />
           <entry key="json" value="1" />
-          <entry key="scss" value="347" />
+          <entry key="rnc" value="1" />
+          <entry key="scss" value="511" />
           <entry key="svg" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="1" />
-          <entry key="JavaScript" value="2050" />
+          <entry key="JavaScript" value="2355" />
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="SCSS" value="347" />
+          <entry key="RNG Compact" value="1" />
+          <entry key="SCSS" value="511" />
           <entry key="SVG" value="28" />
         </counts>
       </usages-collector>
@@ -69,31 +76,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-340">
-              <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-                <element signature="e#2088#2366#0" />
-                <element signature="e#2421#2625#0" />
-                <element signature="e#2751#2891#0" />
-                <element signature="e#5078#6034#0" />
-                <element signature="e#6055#6970#0" />
-                <element signature="e#6107#6365#0" />
-                <element signature="e#6991#7916#0" />
-                <element signature="e#7963#9581#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/css/master.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="214" column="34" selection-start-line="214" selection-start-column="34" selection-end-line="214" selection-end-column="34" />
+            <state relative-caret-position="493">
+              <caret line="273" column="16" selection-start-line="273" selection-start-column="16" selection-end-line="273" selection-end-column="16" />
               <folding>
                 <element signature="e#2949#3088#0" />
                 <element signature="e#3110#3878#0" />
@@ -104,6 +91,16 @@
               </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/images/nav_close.svg">
+          <provider selected="true" editor-type-id="images" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/images/nav_close.svg">
+          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -119,22 +116,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/manufacturing.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="65" column="12" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/header.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="57" column="40" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
+            <state relative-caret-position="324">
+              <caret line="70" column="49" lean-forward="true" selection-start-line="70" selection-start-column="49" selection-end-line="70" selection-end-column="49" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -143,10 +128,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/block.rnc">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="244" column="16" selection-start-line="244" selection-start-column="16" selection-end-line="244" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/react.d.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="879" column="46" lean-forward="true" selection-start-line="879" selection-start-column="46" selection-end-line="879" selection-end-column="46" />
+            <state relative-caret-position="198">
+              <caret line="1001" column="8" selection-start-line="1001" selection-start-column="8" selection-end-line="1001" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -167,11 +161,6 @@
               <caret line="1939" column="26" selection-start-line="1939" selection-start-column="26" selection-end-line="1939" selection-end-column="26" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/images/Logo.svg">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -213,11 +202,11 @@
         <option value="$PROJECT_DIR$/src/components/slidershow.js" />
         <option value="$PROJECT_DIR$/src/pages/index.js" />
         <option value="$PROJECT_DIR$/src/components/slidershow_image.js" />
-        <option value="$PROJECT_DIR$/src/css/master.scss" />
         <option value="$PROJECT_DIR$/src/images/navmenu.css" />
         <option value="$PROJECT_DIR$/src/images/navmenu.svg" />
         <option value="$PROJECT_DIR$/src/images/menu-lines.svg" />
         <option value="$PROJECT_DIR$/src/components/header.js" />
+        <option value="$PROJECT_DIR$/src/css/master.scss" />
       </list>
     </option>
   </component>
@@ -238,9 +227,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="417" />
-    <option name="y" value="28" />
-    <option name="width" value="1400" />
+    <option name="x" value="45" />
+    <option name="y" value="283" />
+    <option name="width" value="1060" />
     <option name="height" value="1000" />
   </component>
   <component name="ProjectView">
@@ -259,6 +248,11 @@
             <path>
               <item name="durite-gatsby" type="b2602c69:ProjectViewProjectNode" />
               <item name="durite-gatsby" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="durite-gatsby" type="b2602c69:ProjectViewProjectNode" />
+              <item name="durite-gatsby" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -266,6 +260,12 @@
               <item name="durite-gatsby" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="durite-gatsby" type="b2602c69:ProjectViewProjectNode" />
+              <item name="durite-gatsby" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="durite-gatsby" type="b2602c69:ProjectViewProjectNode" />
@@ -288,7 +288,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.15.3" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../cm_frontend" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -300,6 +300,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Task_Project\durite-gatsby\public\images" />
       <recent name="D:\Task_Project\durite-gatsby\src\images" />
     </key>
   </component>
@@ -351,12 +352,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1556269908287</updated>
-      <workItem from="1556269910427" duration="23844000" />
+      <workItem from="1556269910427" duration="27561000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23844000" />
+    <option name="totallyTimeSpent" value="27561000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -373,16 +374,16 @@
     <layout>
       <window_info id="npm" side_tool="true" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14436805" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14436805" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" weight="0.20424107" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.20424107" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.5002644" side_tool="true" weight="0.21428572" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4997356" visible="true" weight="0.35044643" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4997356" weight="0.27455357" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -494,21 +495,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/master.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="214" column="34" selection-start-line="214" selection-start-column="34" selection-end-line="214" selection-end-column="34" />
-          <folding>
-            <element signature="e#2949#3088#0" />
-            <element signature="e#3110#3878#0" />
-            <element signature="e#3211#3499#0" />
-            <element signature="e#3524#3872#0" />
-            <element signature="e#3899#3988#0" />
-            <element signature="e#4006#4014#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/images/navmenu.svg">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -519,16 +505,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/images/Logo.svg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/slidershow_image.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/@types/react/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -547,19 +523,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/react.d.ts">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/webstorm.jar!/resources/html5-schema/html5/block.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="879" column="46" lean-forward="true" selection-start-line="879" selection-start-column="46" selection-end-line="879" selection-end-column="46" />
+        <state relative-caret-position="207">
+          <caret line="244" column="16" selection-start-line="244" selection-start-column="16" selection-end-line="244" selection-end-column="16" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/nav_close.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/slidershow_image.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/react.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="1001" column="8" selection-start-line="1001" selection-start-column="8" selection-end-line="1001" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/images/nav_close.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/header.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="57" column="40" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
+        <state relative-caret-position="324">
+          <caret line="70" column="49" lean-forward="true" selection-start-line="70" selection-start-column="49" selection-end-line="70" selection-end-column="49" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/master.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="273" column="16" selection-start-line="273" selection-start-column="16" selection-end-line="273" selection-end-column="16" />
+          <folding>
+            <element signature="e#2949#3088#0" />
+            <element signature="e#3110#3878#0" />
+            <element signature="e#3211#3499#0" />
+            <element signature="e#3524#3872#0" />
+            <element signature="e#3899#3988#0" />
+            <element signature="e#4006#4014#0" />
           </folding>
         </state>
       </provider>
