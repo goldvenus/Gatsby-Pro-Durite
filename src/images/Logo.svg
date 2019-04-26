@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="144px" height="73px" viewBox="0 0 144 73" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="2/6" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Page" transform="translate(-102.000000, -61.000000)">
+            <g id="Group" transform="translate(102.000000, 61.000000)">
+                <text id="Durite®" font-family="Helvetica-Bold, Helvetica" font-size="24" font-weight="bold" fill="#000000">
+                    <tspan x="57" y="69">Durite®</tspan>
+                </text>
+                <path d="M18.5819321,66.9771144 L5.86679228,57.0429584 C-0.773680288,51.8548526 -1.9537201,42.2693049 3.23364654,35.6297784 C7.9224448,29.6283903 16.2025753,28.0872545 22.6604497,31.6850225 L22.6604497,0 L47.4816689,0 L47.4816689,48.9533027 C44.566143,43.7388316 38.9792654,40.2118644 32.5661086,40.2118644 C23.1415968,40.2118644 15.5015204,47.828715 15.5015204,57.2245763 C15.5015204,60.8527256 16.6407068,64.2156126 18.5819321,66.9771144 L18.5819321,66.9771144 Z M32.8763738,73 C24.3086358,73 17.3631118,66.0755904 17.3631118,57.5338983 C17.3631118,48.9922062 24.3086358,42.0677966 32.8763738,42.0677966 C41.4441119,42.0677966 48.3896358,48.9922062 48.3896358,57.5338983 C48.3896358,66.0755904 41.4441119,73 32.8763738,73 Z" id="Combined-Shape" fill="#FF0200"></path>
+            </g>
+        </g>
+    </g>
+</svg>
