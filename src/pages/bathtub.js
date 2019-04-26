@@ -2,9 +2,6 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Slider from 'react-slick'
 import '../css/master.scss'
-import {Navbar} from 'react-bootstrap';
-import {Nav} from 'react-bootstrap';
-import {NavItem} from 'react-bootstrap';
 import {Container} from 'react-bootstrap'
 import {Row} from 'react-bootstrap'
 import {Col} from 'react-bootstrap'
@@ -13,6 +10,7 @@ import FA from 'react-fontawesome'
 import MainFooter from "../components/footer";
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Slideshow_image from "../components/slidershow_image"
 
 export default class ReactComponent extends React.Component {
     constructor(props) {
@@ -67,35 +65,34 @@ export default class ReactComponent extends React.Component {
             responsive:[{ breakpoint: 768, settings: { slidesToShow: 1 } }]
         };
         const IMAGES = [
-            {
-                src: 'http://mediacdn.durite.us/Bathtub+%26+Fixtures/BARBARA+BATHROOM.jpg'
-            }, {
-                src: 'http://mediacdn.durite.us/Bathtub+%26+Fixtures/Bath+Tub+%26+Wall+Panels.JPG'
-            }, {
-                src: 'http://mediacdn.durite.us/Bathtub+%26+Fixtures/CRUSHED+GLASS+FLOORS.JPG'
-            }, {
-                src: 'http://mediacdn.durite.us/Bathtub+%26+Fixtures/Fairfax+BRM+SMALL+SIZE.jpg'
-            }, {
-              src: 'http://mediacdn.durite.us/Bathtub+%26+Fixtures/Fairfax+Bench+%26+Panels.jpg'
-            }, {
-              src: 'http://mediacdn.durite.us/Bathtub+%26+Fixtures/Fairfax+Sink.jpg'
-            }, {
-              src: 'http://mediacdn.durite.us/Bathtub+%26+Fixtures/Fountain+-Jacuzzi.JPG'
-            }, {
-                src:'http://mediacdn.durite.us/Bathtub+%26+Fixtures/Fountain-+Jacuzzi.JPG'
-            }, {
-                src:'http://mediacdn.durite.us/Bathtub+%26+Fixtures/GRN+Gray+Mirror+Tub+Surround+%26+Bathroom+.jpg'
-            }, {
-                src:'http://mediacdn.durite.us/Bathtub+%26+Fixtures/GRN+Gray+Vanity+Mirror-2.jpg'
-            }, {
-                src:'http://mediacdn.durite.us/Bathtub+%26+Fixtures/Molded+Tub.JPG'
-            }, {
-                src:'http://mediacdn.durite.us/Bathtub+%26+Fixtures/Moroccan+Fountain+With+Leaf+Impression.JPG'
-            }, {
-              src:'http://mediacdn.durite.us/Bathtub+%26+Fixtures/TUB+Surround+Panel.jpg'
-            }, {
-              src:'http://mediacdn.durite.us/Bathtub+%26+Fixtures/Tub+%26+Walls+Same+Material.JPG'
-            }
+
+            'http://mediacdn.durite.us/Bathtub+%26+Fixtures/BARBARA+BATHROOM.jpg',
+
+            'http://mediacdn.durite.us/Bathtub+%26+Fixtures/Bath+Tub+%26+Wall+Panels.JPG',
+
+            'http://mediacdn.durite.us/Bathtub+%26+Fixtures/CRUSHED+GLASS+FLOORS.JPG',
+
+            'http://mediacdn.durite.us/Bathtub+%26+Fixtures/Fairfax+BRM+SMALL+SIZE.jpg',
+
+             'http://mediacdn.durite.us/Bathtub+%26+Fixtures/Fairfax+Bench+%26+Panels.jpg',
+
+             'http://mediacdn.durite.us/Bathtub+%26+Fixtures/Fairfax+Sink.jpg',
+
+             'http://mediacdn.durite.us/Bathtub+%26+Fixtures/Fountain+-Jacuzzi.JPG',
+
+            'http://mediacdn.durite.us/Bathtub+%26+Fixtures/Fountain-+Jacuzzi.JPG',
+
+            'http://mediacdn.durite.us/Bathtub+%26+Fixtures/GRN+Gray+Mirror+Tub+Surround+%26+Bathroom+.jpg',
+
+            'http://mediacdn.durite.us/Bathtub+%26+Fixtures/GRN+Gray+Vanity+Mirror-2.jpg',
+
+            'http://mediacdn.durite.us/Bathtub+%26+Fixtures/Molded+Tub.JPG',
+
+            'http://mediacdn.durite.us/Bathtub+%26+Fixtures/Moroccan+Fountain+With+Leaf+Impression.JPG',
+
+            'http://mediacdn.durite.us/Bathtub+%26+Fixtures/TUB+Surround+Panel.jpg',
+
+            'http://mediacdn.durite.us/Bathtub+%26+Fixtures/Tub+%26+Walls+Same+Material.JPG'
         ]
 
         return (
@@ -113,13 +110,7 @@ export default class ReactComponent extends React.Component {
                     </div>
                     <div className="slideShowSection">
                         <div className="slideShow">
-                            <Slider {...settings}>
-                                <div><img onClick={this.openLightbox} src={IMAGES[0].src}/></div>
-                                <div><img onClick={this.openLightbox} src={IMAGES[1].src}/></div>
-                                <div><img onClick={this.openLightbox} src={IMAGES[2].src}/></div>
-                                <div><img onClick={this.openLightbox} src={IMAGES[3].src}/></div>
-
-                            </Slider>
+                          <Slideshow_image sliderimage = {IMAGES}/>
                             <Lightbox currentImage={this.state.currentImage} images={IMAGES.map(({src}) => ({src: src}))} isOpen={this.state.lightboxIsOpen} onClickPrev={this.gotoPrevious} onClickNext={this.gotoNext} onClose={this.closeLightbox} backdropClosesModal={true} />
                             <button className="viewGalleryButton" onClick={this.openLightbox}><h4>View Gallery <FA name='picture-o' /></h4></button>
 

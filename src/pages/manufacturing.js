@@ -14,6 +14,7 @@ import FA from 'react-fontawesome'
 import MainFooter from "../components/footer";
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Slideshow_image from "../components/slidershow_image"
 
 export default class ReactComponent extends React.Component {
     constructor(props) {
@@ -68,25 +69,25 @@ export default class ReactComponent extends React.Component {
             responsive:[{ breakpoint: 768, settings: { slidesToShow: 1 } }]
         };
         const IMAGES = [
-          {
-              src: 'http://mediacdn.durite.us/manufacturing/Champs+Cashier+Desk.jpg'
-          },{
-              src: 'http://mediacdn.durite.us/manufacturing/Tiffany+Pantry+Area.JPG'
-          }, {
-              src: 'http://mediacdn.durite.us/manufacturing/Tiffany+Pantry+Kitchen+Top%2C+Island+and+floor.JPG'
-          },{
-                src: 'http://mediacdn.durite.us/manufacturing/Brooklyn+College+Library+DeskTop.JPG'
-            }, {
-              src:'http://mediacdn.durite.us/manufacturing/Brooklyn+College+Library+Info+DeskTop+Two+Levels.JPG'
-            },{
-                src: 'http://mediacdn.durite.us/manufacturing/Brooklyn+College+Library+Information+DeskTop.JPG'
-            }, {
-                src: 'http://mediacdn.durite.us/manufacturing/Brooklyn+College.JPG'
-            }, {
-                src: 'http://mediacdn.durite.us/manufacturing/Champs+Cashier+Desk+(1).JPG'
-            },  {
-                src: 'http://mediacdn.durite.us/manufacturing/City+Center+Grand+Stairs.JPG'
-            }
+          
+               'http://mediacdn.durite.us/manufacturing/Champs+Cashier+Desk.jpg',
+          
+               'http://mediacdn.durite.us/manufacturing/Tiffany+Pantry+Area.JPG',
+           
+               'http://mediacdn.durite.us/manufacturing/Tiffany+Pantry+Kitchen+Top%2C+Island+and+floor.JPG',
+          
+                 'http://mediacdn.durite.us/manufacturing/Brooklyn+College+Library+DeskTop.JPG',
+             
+              'http://mediacdn.durite.us/manufacturing/Brooklyn+College+Library+Info+DeskTop+Two+Levels.JPG',
+            
+                 'http://mediacdn.durite.us/manufacturing/Brooklyn+College+Library+Information+DeskTop.JPG',
+             
+                 'http://mediacdn.durite.us/manufacturing/Brooklyn+College.JPG',
+             
+                 'http://mediacdn.durite.us/manufacturing/Champs+Cashier+Desk+(1).JPG',
+              
+                 'http://mediacdn.durite.us/manufacturing/City+Center+Grand+Stairs.JPG'
+            
         ]
 
         return (
@@ -104,13 +105,7 @@ export default class ReactComponent extends React.Component {
                     </div>
                     <div className="slideShowSection">
                         <div className="slideShow">
-                            <Slider {...settings}>
-                                <div><img onClick={this.openLightbox} src={IMAGES[0].src}/></div>
-                                <div><img onClick={this.openLightbox} src={IMAGES[1].src}/></div>
-                                <div><img onClick={this.openLightbox} src={IMAGES[2].src}/></div>
-                                <div><img onClick={this.openLightbox} src={IMAGES[3].src}/></div>
-
-                            </Slider>
+                          <Slideshow_image sliderimage = {IMAGES}/>
                             <Lightbox currentImage={this.state.currentImage} images={IMAGES.map(({src}) => ({src: src}))} isOpen={this.state.lightboxIsOpen} onClickPrev={this.gotoPrevious} onClickNext={this.gotoNext} onClose={this.closeLightbox} backdropClosesModal={true} />
                             <button className="viewGalleryButton" onClick={this.openLightbox}><h4>View Gallery <FA name='picture-o' /></h4></button>
 

@@ -14,6 +14,7 @@ import FA from 'react-fontawesome'
 import MainFooter from "../components/footer";
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Slideshow_image from "../components/slidershow_image"
 
 export default class ReactComponent extends React.Component {
     constructor(props) {
@@ -67,47 +68,47 @@ export default class ReactComponent extends React.Component {
             responsive:[{ breakpoint: 768, settings: { slidesToShow: 1 } }]
         };
         const IMAGES = [
-          {
-            src:'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Susan+Counter+Top+2.JPG'
-          },{
-            src:'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Greene+Island+%26+Kitchen+Top.jpg'
-          },{
-                src: 'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Back+of+Wall+%26+Bar+Top+One+Piece.JPG'
-            }, {
-                src: 'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Citarella+Bar.JPG'
-            }, {
-                src: 'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Example+of+Pebble+panels.jpg'
-            }, {
-              src:'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Fabrication+Table+Top.jpg'
-            },{
-                src:'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/GRN+Island+Thickness.jpg'
-            }, {
-              src:'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/GRN+Kitchen+Sink%2C+Counter+%26+Black-Splash+One+Piece.jpg'
-            }, {
-              src:'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Gansvourt+Bar+Corner+100\'+length+one+piece.JPG'
-            }, {
-              src:'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Gansvourt+Bar+Section.JPG'
-            },  {
-              src:'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/JFK+Avion+Cafe+Bar+top.jpg'
-            }, {
-              src:'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/JFK+Avion+Cafe+Counter+Top.jpg'
-            }, {
-              src:'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Kitchen+%26+Island.jpg'
-            }, {
-              src:'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Kitchen+Island+Top.JPG'
-            }, {
-              src:'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Kitchen+Walkway.jpg'
-            }, {
-              src:'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Olympia+Tower+Kitchen.JPG'
-            }, {
-              src:'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Radius+one+piece+Oyster+Bar.JPG'
-            },  {
-              src:'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Susan+Counter+Top.JPG'
-            }, {
-              src:'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Susan+Custom+Made+Counter+Top+2+(1).JPG'
-            }, {
-              src:'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Zen+Palate+Table+Top.jpg'
-            }
+
+            'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Susan+Counter+Top+2.JPG',
+          
+            'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Greene+Island+%26+Kitchen+Top.jpg',
+          
+                 'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Back+of+Wall+%26+Bar+Top+One+Piece.JPG',
+            
+                 'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Citarella+Bar.JPG',
+            
+                 'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Example+of+Pebble+panels.jpg',
+            
+              'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Fabrication+Table+Top.jpg',
+            
+                'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/GRN+Island+Thickness.jpg',
+            
+              'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/GRN+Kitchen+Sink%2C+Counter+%26+Black-Splash+One+Piece.jpg',
+            
+              'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Gansvourt+Bar+Corner+100\'+length+one+piece.JPG',
+            
+              'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Gansvourt+Bar+Section.JPG',
+            
+              'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/JFK+Avion+Cafe+Bar+top.jpg',
+            
+              'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/JFK+Avion+Cafe+Counter+Top.jpg',
+            
+              'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Kitchen+%26+Island.jpg',
+            
+              'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Kitchen+Island+Top.JPG',
+
+              'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Kitchen+Walkway.jpg',
+            
+              'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Olympia+Tower+Kitchen.JPG',
+            
+              'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Radius+one+piece+Oyster+Bar.JPG',
+            
+              'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Susan+Counter+Top.JPG',
+            
+              'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Susan+Custom+Made+Counter+Top+2+(1).JPG',
+            
+              'http://mediacdn.durite.us/Kitchen+%26+Bar+Countertops/Zen+Palate+Table+Top.jpg'
+
         ]
 
         return (
@@ -125,13 +126,7 @@ export default class ReactComponent extends React.Component {
                     </div>
                     <div className="slideShowSection">
                         <div className="slideShow">
-                            <Slider {...settings}>
-                                <div><img onClick={this.openLightbox} src={IMAGES[0].src}/></div>
-                                <div><img onClick={this.openLightbox} src={IMAGES[1].src}/></div>
-                                <div><img onClick={this.openLightbox} src={IMAGES[2].src}/></div>
-                                <div><img onClick={this.openLightbox} src={IMAGES[3].src}/></div>
-
-                            </Slider>
+                          <Slideshow_image sliderimage = {IMAGES}/>
                             <Lightbox currentImage={this.state.currentImage} images={IMAGES.map(({src}) => ({src: src}))} isOpen={this.state.lightboxIsOpen} onClickPrev={this.gotoPrevious} onClickNext={this.gotoNext} onClose={this.closeLightbox} backdropClosesModal={true} />
                             <button className="viewGalleryButton" onClick={this.openLightbox}><h4>View Gallery <FA name='picture-o' /></h4></button>
 

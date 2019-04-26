@@ -14,6 +14,7 @@ import FA from 'react-fontawesome'
 import MainFooter from "../components/footer";
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Slideshow_image from "../components/slidershow_image"
 
 export default class ReactComponent extends React.Component {
     constructor(props) {
@@ -58,58 +59,43 @@ export default class ReactComponent extends React.Component {
     }
 
     render() {
-        const settings = {
-            dots: true,
-            infinite: true,
-            slidesToShow: 2,
-            slidesToScroll: 1,
-            autoplay: true,
-            autoplaySpeed: 2000,
-            responsive: [
-                {
-                    breakpoint: 768,
-                    settings: {
-                        slidesToShow: 1
-                    }
-                }
-            ]
-        };
+
         const IMAGES = [
-            {
-                src:'http://mediacdn.durite.us/walls/Nobu+Wall+%26+Floors.JPG'
-            }, {
-                src: 'http://mediacdn.durite.us/walls/citerela+wall+panels.JPG'
-            }, {
-                src: 'http://mediacdn.durite.us/walls/Coral+Translucent+panels-2.JPG'
-            }, {
-                src:'http://mediacdn.durite.us/walls/Coral+panel+on+left.JPG'
-            }, {
-              src:'http://mediacdn.durite.us/walls/UN+Fountain.jpg'
-            }, {
-              src:'http://mediacdn.durite.us/walls/Nobu+Bamboo+Panels.JPG'
-            }, {
-              src:'http://mediacdn.durite.us/walls/Coral+Panels+at+entrance.JPG'
-            }, {
-              src:'http://mediacdn.durite.us/walls/Coral+Reef+Wall+Panels+Light+in+off+position+.JPG'
-            }, {
-              src:'http://mediacdn.durite.us/walls/CoralReef5.jpg'
-            }, {
-              src:'http://mediacdn.durite.us/walls/CoralReef8.jpg'
-            }, {
-              src:'http://mediacdn.durite.us/walls/Durite+Fountian+for+luis+De+Cruis.jpg'
-            }, {
-              src:'http://mediacdn.durite.us/walls/Fountian+picture.jpg'
-            }, {
-              src:'http://mediacdn.durite.us/walls/Jimmy\'s+East+57.JPG'
-            }, {
-              src:'http://mediacdn.durite.us/walls/Nobu+Floor+%26+wall+Panels.JPG'
-            }, {
-              src:'http://mediacdn.durite.us/walls/Nobu+Floor+Panels.JPG'
-            }, {
-              src:'http://mediacdn.durite.us/walls/UN+Fountain+Wall.jpg'
-            }, {
-              src:'http://mediacdn.durite.us/walls/UN+Wall+Fountain+2.jpg'
-            }
+
+            'http://mediacdn.durite.us/walls/Nobu+Wall+%26+Floors.JPG',
+
+             'http://mediacdn.durite.us/walls/citerela+wall+panels.JPG',
+
+             'http://mediacdn.durite.us/walls/Coral+Translucent+panels-2.JPG',
+
+            'http://mediacdn.durite.us/walls/Coral+panel+on+left.JPG',
+
+          'http://mediacdn.durite.us/walls/UN+Fountain.jpg',
+
+            'http://mediacdn.durite.us/walls/Nobu+Bamboo+Panels.JPG',
+
+            'http://mediacdn.durite.us/walls/Coral+Panels+at+entrance.JPG',
+
+            'http://mediacdn.durite.us/walls/Coral+Reef+Wall+Panels+Light+in+off+position+.JPG',
+
+            'http://mediacdn.durite.us/walls/CoralReef5.jpg',
+
+            'http://mediacdn.durite.us/walls/CoralReef8.jpg',
+
+            'http://mediacdn.durite.us/walls/Durite+Fountian+for+luis+De+Cruis.jpg',
+
+            'http://mediacdn.durite.us/walls/Fountian+picture.jpg',
+
+            'http://mediacdn.durite.us/walls/Jimmy\'s+East+57.JPG',
+
+            'http://mediacdn.durite.us/walls/Nobu+Floor+%26+wall+Panels.JPG',
+
+            'http://mediacdn.durite.us/walls/Nobu+Floor+Panels.JPG',
+
+            'http://mediacdn.durite.us/walls/UN+Fountain+Wall.jpg',
+
+            'http://mediacdn.durite.us/walls/UN+Wall+Fountain+2.jpg'
+
         ]
 
         return (
@@ -127,13 +113,8 @@ export default class ReactComponent extends React.Component {
                     </div>
                     <div className="slideShowSection">
                         <div className="slideShow">
-                            <Slider {...settings}>
-                                <div><img onClick={this.openLightbox} src={IMAGES[0].src}/></div>
-                                <div><img onClick={this.openLightbox} src={IMAGES[1].src}/></div>
-                                <div><img onClick={this.openLightbox} src={IMAGES[2].src}/></div>
-                                <div><img onClick={this.openLightbox} src={IMAGES[3].src}/></div>
+                          <Slideshow_image sliderimage = {IMAGES}/>
 
-                            </Slider>
                             <Lightbox currentImage={this.state.currentImage} images={IMAGES.map(({src}) => ({src: src}))} isOpen={this.state.lightboxIsOpen} onClickPrev={this.gotoPrevious} onClickNext={this.gotoNext} onClose={this.closeLightbox} backdropClosesModal={true}/>
                             <button className="viewGalleryButton" onClick={this.openLightbox}>
                                 <h4>View Gallery

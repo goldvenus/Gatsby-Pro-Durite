@@ -3,9 +3,6 @@ import Helmet from 'react-helmet'
 
 import Slider from 'react-slick'
 import '../css/master.scss'
-import {Navbar} from 'react-bootstrap';
-import {Nav} from 'react-bootstrap';
-import {NavItem} from 'react-bootstrap';
 import {Container} from 'react-bootstrap'
 import {Row} from 'react-bootstrap'
 import {Col} from 'react-bootstrap'
@@ -14,6 +11,7 @@ import FA from 'react-fontawesome'
 import MainFooter from "../components/footer";
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Slideshow_image from "../components/slidershow_image"
 
 export default class ReactComponent extends React.Component {
     constructor(props) {
@@ -68,21 +66,21 @@ export default class ReactComponent extends React.Component {
             responsive:[{ breakpoint: 768, settings: { slidesToShow: 1 } }]
         };
         const IMAGES = [
-            {
-                src:'http://mediacdn.durite.us/shower/Custom+Shower+Panel+Without+Curb.jpg'
-            }, {
-                src:'http://mediacdn.durite.us/shower/SHOWER+BASIN.JPG'
-            }, {
-                src:'http://mediacdn.durite.us/shower/Shower+Basin+Install.jpg'
-            }, {
-                src:'http://mediacdn.durite.us/shower/Shower+Basin+With+Raised+Edge.JPG'
-            }, {
-              src:'http://mediacdn.durite.us/shower/Shower+Basin+with+raised+edges.JPG'
-            }, {
-              src:'http://mediacdn.durite.us/shower/Shower+Panel+block+for+Glass+Insert.jpg'
-            }, {
-              src:'http://mediacdn.durite.us/shower/Shower+on+hidden+drainage.JPG'
-            }
+
+           'http://mediacdn.durite.us/shower/Custom+Shower+Panel+Without+Curb.jpg',
+
+           'http://mediacdn.durite.us/shower/SHOWER+BASIN.JPG',
+
+           'http://mediacdn.durite.us/shower/Shower+Basin+Install.jpg',
+
+           'http://mediacdn.durite.us/shower/Shower+Basin+With+Raised+Edge.JPG',
+
+          'http://mediacdn.durite.us/shower/Shower+Basin+with+raised+edges.JPG',
+
+           'http://mediacdn.durite.us/shower/Shower+Panel+block+for+Glass+Insert.jpg',
+
+            'http://mediacdn.durite.us/shower/Shower+on+hidden+drainage.JPG'
+
         ]
 
         return (
@@ -100,13 +98,7 @@ export default class ReactComponent extends React.Component {
                     </div>
                     <div className="slideShowSection">
                         <div className="slideShow">
-                            <Slider {...settings}>
-                                <div><img onClick={this.openLightbox} src={IMAGES[0].src}/></div>
-                                <div><img onClick={this.openLightbox} src={IMAGES[1].src}/></div>
-                                <div><img onClick={this.openLightbox} src={IMAGES[2].src}/></div>
-                                <div><img onClick={this.openLightbox} src={IMAGES[3].src}/></div>
-
-                            </Slider>
+                          <Slideshow_image sliderimage = {IMAGES}/>
                             <Lightbox currentImage={this.state.currentImage} images={IMAGES.map(({src}) => ({src: src}))} isOpen={this.state.lightboxIsOpen} onClickPrev={this.gotoPrevious} onClickNext={this.gotoNext} onClose={this.closeLightbox} backdropClosesModal={true} />
                             <button className="viewGalleryButton" onClick={this.openLightbox}><h4>View Gallery <FA name='picture-o' /></h4></button>
 

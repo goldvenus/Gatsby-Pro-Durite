@@ -3,9 +3,6 @@ import Helmet from 'react-helmet'
 
 import Slider from 'react-slick'
 import '../css/master.scss'
-import {Navbar} from 'react-bootstrap';
-import {Nav} from 'react-bootstrap';
-import {NavItem} from 'react-bootstrap';
 import {Container} from 'react-bootstrap'
 import {Row} from 'react-bootstrap'
 import {Col} from 'react-bootstrap'
@@ -14,6 +11,7 @@ import FA from 'react-fontawesome'
 import MainFooter from "../components/footer";
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Slideshow_image from "../components/slidershow_image"
 
 export default class ReactComponent extends React.Component {
     constructor(props) {
@@ -58,42 +56,26 @@ export default class ReactComponent extends React.Component {
     }
 
     render() {
-        const settings = {
-            dots: true,
-            infinite: true,
-            slidesToShow: 2,
-            slidesToScroll: 1,
-            autoplay: true,
-            autoplaySpeed: 2000,
-            responsive: [
-                {
-                    breakpoint: 768,
-                    settings: {
-                        slidesToShow: 1
-                    }
-                }
-            ]
-        };
         const IMAGES = [
-            {
-                src:'http://mediacdn.durite.us/vanity+top/3D+Cast+Sink+%26+Counter+Same+Material.JPG'
-            },{
-                src:'http://mediacdn.durite.us/vanity+top/Fairfax+Vanity+Top.jpg'
-            }, {
-                src:'http://mediacdn.durite.us/vanity+top/GRN+Gray+Mirror+Vanity+Sink.jpg'
-            }, {
-                src:'http://mediacdn.durite.us/vanity+top/GRN+White+Mirror+Vanity.jpg'
-            }, {
-              src:'http://mediacdn.durite.us/vanity+top/Giraffe+Hotel+Ladies+Powder+Room+Vanity.JPG'
-            }, {
-              src:'http://mediacdn.durite.us/vanity+top/TROUGH+SINK.JPG'
-            }, {
-              src:'http://mediacdn.durite.us/vanity+top/Trough+Sink+With+Slot+Drain.JPG'
-            }, {
-              src:'http://mediacdn.durite.us/vanity+top/Vanity+Cast+Top+and+Sinks+Single+piece.jpg'
-            }, {
-              src:'http://mediacdn.durite.us/vanity+top/W-Hotel+Custom+Shells+Vanity+Top.JPG'
-            }
+
+            'http://mediacdn.durite.us/vanity+top/3D+Cast+Sink+%26+Counter+Same+Material.JPG',
+
+            'http://mediacdn.durite.us/vanity+top/Fairfax+Vanity+Top.jpg',
+
+            'http://mediacdn.durite.us/vanity+top/GRN+Gray+Mirror+Vanity+Sink.jpg',
+
+            'http://mediacdn.durite.us/vanity+top/GRN+White+Mirror+Vanity.jpg',
+
+          'http://mediacdn.durite.us/vanity+top/Giraffe+Hotel+Ladies+Powder+Room+Vanity.JPG',
+
+            'http://mediacdn.durite.us/vanity+top/TROUGH+SINK.JPG',
+
+            'http://mediacdn.durite.us/vanity+top/Trough+Sink+With+Slot+Drain.JPG',
+
+            'http://mediacdn.durite.us/vanity+top/Vanity+Cast+Top+and+Sinks+Single+piece.jpg',
+
+            'http://mediacdn.durite.us/vanity+top/W-Hotel+Custom+Shells+Vanity+Top.JPG'
+
         ]
 
         return (
@@ -111,11 +93,7 @@ export default class ReactComponent extends React.Component {
                     </div>
                     <div className="slideShowSection">
                         <div className="slideShow">
-                            <Slider {...settings}>
-                                <div><img onClick={this.openLightbox} src={IMAGES[0].src}/></div>
-                                <div><img onClick={this.openLightbox} src={IMAGES[1].src}/></div>
-
-                            </Slider>
+                          <Slideshow_image sliderimage = {IMAGES}/>
                             <Lightbox currentImage={this.state.currentImage} images={IMAGES.map(({src}) => ({src: src}))} isOpen={this.state.lightboxIsOpen} onClickPrev={this.gotoPrevious} onClickNext={this.gotoNext} onClose={this.closeLightbox} backdropClosesModal={true}/>
                             <button className="viewGalleryButton" onClick={this.openLightbox}>
                                 <h4>View Gallery

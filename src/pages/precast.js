@@ -14,6 +14,7 @@ import FA from 'react-fontawesome'
 import MainFooter from "../components/footer";
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Slideshow_image from "../components/slidershow_image"
 
 export default class ReactComponent extends React.Component {
     constructor(props) {
@@ -68,43 +69,43 @@ export default class ReactComponent extends React.Component {
             responsive:[{ breakpoint: 768, settings: { slidesToShow: 1 } }]
         };
         const IMAGES = [
-            {
-                src:'http://mediacdn.durite.us/precast/111-5th+ave+Exterior+Pre-cast+Molding.jpg'
-            }, {
-                src:'http://mediacdn.durite.us/precast/116+CPW+Interior+Pre-cast+Hall+Way.JPG'
-            },{
-                src:'http://mediacdn.durite.us/precast/315+E+72st+Exterior+Facing+South+72+St.JPG'
-            },{
-                src:'http://mediacdn.durite.us/precast/650+6+Pre-Fab+Elevator+floor.JPG'
-            },{
-                src:'http://mediacdn.durite.us/precast/Cove+Base+%26+Round+Corners+.JPG'
-            },{
-                src:'http://mediacdn.durite.us/precast/Cove+base+Imbedded+in+Floor.JPG'
-            },{
-                src:'http://mediacdn.durite.us/precast/Epcot+Center+Coral+Reef+Interior+Wall+Panels.JPG'
-            },{
-                src:'http://mediacdn.durite.us/precast/Epcot+Center+Coral+Reef+looking+at+Water+Tank.JPG'
-            },{
-                src:'http://mediacdn.durite.us/precast/Hudson+Elevator+Floor.JPG'
-            },{
-                src:'http://mediacdn.durite.us/precast/In+and+Out+Cove+Base.jpg'
-            },{
-                src:'http://mediacdn.durite.us/precast/Large+Exterior+Panels+set+on+pedestal+Pavers.JPG'
-            },{
-                src:'http://mediacdn.durite.us/precast/Pre-Fab+Oyster+Bar+%26+Banquet.jpg'
-            },{
-                src:'http://mediacdn.durite.us/precast/Pre-Fab+Oyster+BarBooth.jpg'
-            },{
-                src:'http://mediacdn.durite.us/precast/Precast+Ceiling.JPG'
-            },{
-                src:'http://mediacdn.durite.us/precast/Precast+Round+Column+and+Corner+Base+%26+Star.jpg'
-            },{
-                src:'http://mediacdn.durite.us/precast/Precast+Wall+Medallion.JPG'
-            },{
-                src:'http://mediacdn.durite.us/precast/WALES+Hotel+Precast+EXTERIORS.JPG'
-            },{
-                src:'http://mediacdn.durite.us/precast/WWF+Round+Table+Booth.jpg'
-            }
+
+            'http://mediacdn.durite.us/precast/111-5th+ave+Exterior+Pre-cast+Molding.jpg',
+
+            'http://mediacdn.durite.us/precast/116+CPW+Interior+Pre-cast+Hall+Way.JPG',
+
+            'http://mediacdn.durite.us/precast/315+E+72st+Exterior+Facing+South+72+St.JPG',
+
+            'http://mediacdn.durite.us/precast/650+6+Pre-Fab+Elevator+floor.JPG',
+
+            'http://mediacdn.durite.us/precast/Cove+Base+%26+Round+Corners+.JPG',
+
+            'http://mediacdn.durite.us/precast/Cove+base+Imbedded+in+Floor.JPG',
+
+            'http://mediacdn.durite.us/precast/Epcot+Center+Coral+Reef+Interior+Wall+Panels.JPG',
+
+            'http://mediacdn.durite.us/precast/Epcot+Center+Coral+Reef+looking+at+Water+Tank.JPG',
+
+            'http://mediacdn.durite.us/precast/Hudson+Elevator+Floor.JPG',
+
+            'http://mediacdn.durite.us/precast/In+and+Out+Cove+Base.jpg',
+
+            'http://mediacdn.durite.us/precast/Large+Exterior+Panels+set+on+pedestal+Pavers.JPG',
+
+            'http://mediacdn.durite.us/precast/Pre-Fab+Oyster+Bar+%26+Banquet.jpg',
+
+            'http://mediacdn.durite.us/precast/Pre-Fab+Oyster+BarBooth.jpg',
+
+            'http://mediacdn.durite.us/precast/Precast+Ceiling.JPG',
+
+            'http://mediacdn.durite.us/precast/Precast+Round+Column+and+Corner+Base+%26+Star.jpg',
+
+            'http://mediacdn.durite.us/precast/Precast+Wall+Medallion.JPG',
+
+            'http://mediacdn.durite.us/precast/WALES+Hotel+Precast+EXTERIORS.JPG',
+
+            'http://mediacdn.durite.us/precast/WWF+Round+Table+Booth.jpg'
+
         ]
 
         return (
@@ -122,11 +123,7 @@ export default class ReactComponent extends React.Component {
                     </div>
                     <div className="slideShowSection">
                         <div className="slideShow">
-                            <Slider {...settings}>
-                                <div><img onClick={this.openLightbox} src={IMAGES[0].src}/></div>
-                                <div><img onClick={this.openLightbox} src={IMAGES[1].src}/></div>
-
-                            </Slider>
+                          <Slideshow_image sliderimage = {IMAGES}/>
                             <Lightbox currentImage={this.state.currentImage} images={IMAGES.map(({src}) => ({src: src}))} isOpen={this.state.lightboxIsOpen} onClickPrev={this.gotoPrevious} onClickNext={this.gotoNext} onClose={this.closeLightbox} backdropClosesModal={true} />
                             <button className="viewGalleryButton" onClick={this.openLightbox}><h4>View Gallery <FA name='picture-o' /></h4></button>
 

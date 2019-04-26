@@ -14,6 +14,7 @@ import FA from 'react-fontawesome'
 import MainFooter from "../components/footer";
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Slideshow_image from "../components/slidershow_image"
 
 export default class ReactComponent extends React.Component {
     constructor(props) {
@@ -68,41 +69,41 @@ export default class ReactComponent extends React.Component {
             responsive:[{ breakpoint: 768, settings: { slidesToShow: 1 } }]
         };
         const IMAGES = [
-            {
-                src:'http://mediacdn.durite.us/stairs/Arup+Concrete+Polymer+Nome-Cracking+Stairs.JPG'
-            }, {
-                src:'http://mediacdn.durite.us/stairs/Arup+Stair+Pans+filled+with+Concrete+Polymer.JPG'
-            }, {
-                src:'http://mediacdn.durite.us/stairs/Bowlmor+Lanes+Translucent+Stairs.JPG'
-            }, {
-                src:'http://mediacdn.durite.us/stairs/Floor+to+Stepping+Stone.jpg'
-            }, {
-                src:'http://mediacdn.durite.us/stairs/Greene+Winged+Stairs.jpg'
-            }, {
-                src:'http://mediacdn.durite.us/stairs/Lacoste+Airplane+Winged+Stair.jpg'
-            }, {
-              src:'http://mediacdn.durite.us/stairs/Lacoste+Stairs+View+from+Exterior.jpg'
-            }, {
-              src:'http://mediacdn.durite.us/stairs/PH+Interior+Overall.jpg'
-            }, {
-              src:'http://mediacdn.durite.us/stairs/PH+Stairs+Head+On+Shot.jpg'
-            }, {
-              src:'http://mediacdn.durite.us/stairs/PH+Stairs.jpg'
-            }, {
-              src:'http://mediacdn.durite.us/stairs/PH+Steps+to+Exterior.jpg'
-            }, {
-              src:'http://mediacdn.durite.us/stairs/Public+Theater+Nosing.JPG'
-            }, {
-              src:'http://mediacdn.durite.us/stairs/Publice+Theater+Grand+Stairs.JPG'
-            }, {
-              src:'http://mediacdn.durite.us/stairs/Single+piece+Tread+%26+Riser+Off-Set+at+70+degrees.jpg'
-            }, {
-              src:'http://mediacdn.durite.us/stairs/Single+piece+Tread+%26+Riser.jpg'
-            }, {
-              src:'http://mediacdn.durite.us/stairs/Stair+Risers.JPG'
-            }, {
-              src:'http://mediacdn.durite.us/stairs/Stair+Treads+%26+Risers+Separate+Pieces+Prefab+%26+Install.JPG'
-            }
+
+            'http://mediacdn.durite.us/stairs/Arup+Concrete+Polymer+Nome-Cracking+Stairs.JPG',
+
+            'http://mediacdn.durite.us/stairs/Arup+Stair+Pans+filled+with+Concrete+Polymer.JPG',
+
+            'http://mediacdn.durite.us/stairs/Bowlmor+Lanes+Translucent+Stairs.JPG',
+
+            'http://mediacdn.durite.us/stairs/Floor+to+Stepping+Stone.jpg',
+
+            'http://mediacdn.durite.us/stairs/Greene+Winged+Stairs.jpg',
+
+            'http://mediacdn.durite.us/stairs/Lacoste+Airplane+Winged+Stair.jpg',
+
+            'http://mediacdn.durite.us/stairs/Lacoste+Stairs+View+from+Exterior.jpg',
+
+            'http://mediacdn.durite.us/stairs/PH+Interior+Overall.jpg',
+
+            'http://mediacdn.durite.us/stairs/PH+Stairs+Head+On+Shot.jpg',
+
+            'http://mediacdn.durite.us/stairs/PH+Stairs.jpg',
+
+            'http://mediacdn.durite.us/stairs/PH+Steps+to+Exterior.jpg',
+
+            'http://mediacdn.durite.us/stairs/Public+Theater+Nosing.JPG',
+
+            'http://mediacdn.durite.us/stairs/Publice+Theater+Grand+Stairs.JPG',
+
+            'http://mediacdn.durite.us/stairs/Single+piece+Tread+%26+Riser+Off-Set+at+70+degrees.jpg',
+
+            'http://mediacdn.durite.us/stairs/Single+piece+Tread+%26+Riser.jpg',
+
+            'http://mediacdn.durite.us/stairs/Stair+Risers.JPG',
+
+            'http://mediacdn.durite.us/stairs/Stair+Treads+%26+Risers+Separate+Pieces+Prefab+%26+Install.JPG'
+
         ]
 
         return (
@@ -120,12 +121,7 @@ export default class ReactComponent extends React.Component {
                     </div>
                     <div className="slideShowSection">
                         <div className="slideShow">
-                            <Slider {...settings}>
-                                <div><img onClick={this.openLightbox} src={IMAGES[0].src}/></div>
-                                <div><img onClick={this.openLightbox} src={IMAGES[1].src}/></div>
-                                <div><img onClick={this.openLightbox} src={IMAGES[2].src}/></div>
-
-                            </Slider>
+                          <Slideshow_image sliderimage = {IMAGES}/>
                             <Lightbox currentImage={this.state.currentImage} images={IMAGES.map(({src}) => ({src: src}))} isOpen={this.state.lightboxIsOpen} onClickPrev={this.gotoPrevious} onClickNext={this.gotoNext} onClose={this.closeLightbox} backdropClosesModal={true}/>
                             <button className="viewGalleryButton" onClick={this.openLightbox}>
                                 <h4>View Gallery
