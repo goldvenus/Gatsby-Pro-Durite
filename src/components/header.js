@@ -29,7 +29,7 @@ class Header extends React.Component {
           maxWidth: 1280,
           padding: `1.45rem 1.0875rem 0 1.0875rem` }}>
           <Nav className="header_nav_menu">
-            <div className="col-3">
+            <div className="col-3" >
               <Link to='/' style={{
                 color: 'black',
                 textDecoration: 'none'}}>
