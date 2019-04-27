@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import React from "react"
 import { Container, Nav, NavItem } from "react-bootstrap"
-import Modal from 'react-awesome-modal';
+import SideBar_nav from "./sliderbar/sidebar"
 
 class Header extends React.Component {
   constructor (props) {
@@ -11,7 +11,7 @@ class Header extends React.Component {
     }
   }
   handleModalOpen = event => {
-    //console.log('handleModalOpen: ', event);
+    console.log('handleModalOpen: ', this.state.isModalOpen);
     this.setState({ isModalOpen: true })
   }
 
@@ -24,6 +24,7 @@ class Header extends React.Component {
 
     return (
       <header>
+        <SideBar_nav opendialog = {this.state.isModalOpen}/>
         <Container className="container" style={{
           margin: `0 auto`,
           maxWidth: 1280,
@@ -59,42 +60,12 @@ class Header extends React.Component {
                 </NavItem>
               </Link>
             </div>
-            <div className="mobile-header-menu col-9" onClick={this.handleModalOpen}>
-              <img src={require('../images/menu-lines.svg')}/>
+            <div className="mobile-header-menu col-9" >
+              <div className="slidemenunav" onClick={this.handleModalOpen}/>
             </div>
           </Nav>
         </Container>
-        <Modal
-          visible={this.state.isModalOpen}
-          className="Modal_dialog"
-          width="100%"
-          height="103%"
-          effect="fadeInRight"
-          onClickAway={() => this.handleModalClose}>
-          <div className="nav_close_btn" onClick={this.handleModalClose}/>
-          <div className = "mobile_nav_menu">
-            <Link to='/about/'>
-              <NavItem eventKey={1}>
-                <div className="mobile_nav_text">About</div>
-              </NavItem>
-            </Link>
-            <Link to='/partnering/'>
-              <NavItem eventKey={2}>
-                <div className="mobile_nav_text">Partnering</div>
-              </NavItem>
-            </Link>
-            <Link to='/chemistry/'>
-              <NavItem eventKey={3}>
-                <div className="mobile_nav_text">Chemistry of Polymers</div>
-              </NavItem>
-            </Link>
-            <Link to='/nature/'>
-              <NavItem eventKey={4}>
-                <div className="mobile_nav_text">From Nature to Lab</div>
-              </NavItem>
-            </Link>
-          </div>
-        </Modal>
+
 
 
       </header>
