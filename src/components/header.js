@@ -10,15 +10,13 @@ class Header extends React.Component {
       isModalOpen: false
     }
   }
+  componentDidMount (){
+    this.setState({ isModalOpen: false });
+  }
   handleModalOpen = event => {
-    console.log('handleModalOpen: ', this.state.isModalOpen);
-    this.setState({ isModalOpen: true })
+    this.setState({ isModalOpen: true });
   }
 
-  handleModalClose = event => {
-    // console.log('handleModalOpen: ', event);
-    this.setState({ isModalOpen: false })
-  }
   render () {
 
 
